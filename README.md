@@ -26,9 +26,15 @@
 <a href="https://community.cisco.com/t5/devops-knowledge-articles/devops-tools-integration-compatability-matrix/ta-p/4802975" target="_blank">DevOps Tools Integration-Compatability Matrix</a>
 
 <a href="https://community.cisco.com/t5/devops-knowledge-articles/github-actions-for-continuous-integration/ta-p/4762097" target="_blank">GitHub Actions for Continuous Integration</a>
+
 <a href="https://community.cisco.com/t5/security-knowledge-base/developer-security-cheat-sheet/ta-p/4753148" target="_blank">Developer Security Cheat Sheet</a>
+
 <a href="https://community.cisco.com/t5/devnet-general-knowledge-base/xml-vs-json-vs-yaml/ta-p/4729758" target="_blank">XML vs. JSON vs. YAML</a> (nearly 20,000 views!)
+
 <a href="https://community.cisco.com/t5/devnet-general-knowledge-base/devsecops-defined/ta-p/4712801" target="_blank">DevSecOps Defined</a>
+
 <a href="https://community.cisco.com/t5/devnet-general-knowledge-base/pyenv-for-managing-python-versions-and-environments/ta-p/4696819" target="_blank">pyenv for Managing Python Versions and Environments-</a>
+
 <a href="https://community.cisco.com/t5/edge-data-management/artificial-intelligence-ai-at-the-edge/td-p/4674085" target="_blank">Artificial Intelligence (AI) at the Edge</a>
+
 <a href="https://community.cisco.com/t5/networking-knowledge-base/networking-automation-and-analytics-cheat-sheet/ta-p/4393538" target="_blank">Networking Automation and Analytics Cheat Sheet</a>
