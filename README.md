@@ -21,7 +21,7 @@
   <tr>
     <td>Cisco Certified DevNet Specialist - DevOps</td>
     <td>Cisco</td>
-    <td><img src="files/images/certifications/devops/DevNet-Specialist-DevOps.png></td>
+    <td></td>
   </tr>
     <tr>
     <td>Implementing DevOps Solutions and Practices Using Cisco Platforms</td>
@@ -35,7 +35,9 @@
   </tr>
 </table>
 
-
+| Certification | Provider | Certificate |
+|---------------|----------|-------------|
+| Cisco Certified DevNet Specialist - DevOps | Cisco | ![DevNet-Specialist-DevOps](files/images/certifications/devops/DevNet-Specialist-DevOps.png) |
 
 <br>
 <br>
