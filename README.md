@@ -2,6 +2,12 @@
 
 
 
+## Certifications
+
+### DevOps certifications
+<hr>
+
+
 ## Technical Writing
 
 
