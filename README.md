@@ -1,3 +1,6 @@
+<link rel="stylesheet" type="text/css" href="/files/styles.css">
+
+
 # Portfolio Page for Alexander Stevenson
 
 <br>
