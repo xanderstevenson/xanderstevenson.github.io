@@ -21,7 +21,7 @@
   <tr>
     <td>Cisco Certified DevNet Specialist - DevOps</td>
     <td>Cisco</td>
-    <<img src="files/images/certifications/devops/DevNet-Specialist-DevOps.png>
+    <img src="files/images/certifications/devops/DevNet-Specialist-DevOps.png>
   </tr>
     <tr>
     <td>Implementing DevOps Solutions and Practices Using Cisco Platforms</td>
