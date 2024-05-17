@@ -14,10 +14,10 @@
     <td>Certification</td><td>Provider</td><td>Certificate</td>
   </tr>
   <tr>
-    <td>a1</td><td>b1</td><td></td>
+    <td>Title: Cisco Certified DevNet Specialist - DevOps</td><td>Cisco</td><td></td>
   </tr>
     <tr>
-    <td>a1</td><td>b1</td><td></td>
+    <td>Title: DevOps 101</td><td>Simplilearn</td><td></td>
   </tr>
 </table>
 
