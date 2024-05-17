@@ -33,6 +33,11 @@
     <td>Simplilearn</td>
     <td></td>
   </tr>
+    <tr>
+    <td>Introduction to DevOps</td>
+    <td>Great Learning Academy</td>
+    <td></td>
+  </tr>
 </table>
 
 
