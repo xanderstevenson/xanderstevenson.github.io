@@ -9,7 +9,7 @@
 
 <hr>
 
-<table>
+<table style="align-content:center">
   <tr>
     <td>Certification</td><td>Provider</td><td>Certificate</td>
   </tr>
