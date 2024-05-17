@@ -1,6 +1,8 @@
 # Portfolio Page for Alexander Stevenson
 
 
+
+## Technical Writing
 <hr>
 
 ### Sample of Blogs and Knowledge Base articles I've published on the Cisco Community
