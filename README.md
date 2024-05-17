@@ -8,7 +8,8 @@
 ### DevOps certifications
 
 <hr>
-Title: DevOps 101: What is DevOps?
+Title: DevOps 101
+
 Provider: Simplilearn
 
 
