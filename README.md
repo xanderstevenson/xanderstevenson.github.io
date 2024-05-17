@@ -23,6 +23,11 @@
     <td>Cisco</td>
     <td></td>
   </tr>
+    <tr>
+    <td>Implementing DevOps Solutions and Practices Using Cisco Platforms</td>
+    <td>Cisco</td>
+    <td></td>
+  </tr>
   <tr>
     <td>DevOps 101</td>
     <td>Simplilearn</td>
