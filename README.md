@@ -9,6 +9,15 @@
 
 <hr>
 
+<table>
+  <tr>
+    <td>a</td><td>b</td>
+  </tr>
+  <tr>
+    <td>a1</td><td>b1</td>
+  </tr>
+</table>
+
 Title: Cisco Certified DevNet Specialist - DevOps
 
 Provider: Cisco
