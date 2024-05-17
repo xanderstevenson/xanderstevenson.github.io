@@ -3,16 +3,15 @@
 
 
 ## Certifications
-
+<hr>
 ### DevOps certifications
 <hr>
 
 
 ## Technical Writing
 
-
+<hr>
 ### Sample of Blogs and Knowledge Base articles I've published on the Cisco Community
-
 <hr>
 
 <a href="https://community.cisco.com/t5/data-center-blogs/data-center-frontiers-greenfield-vs-brownfield-in-cisco/ba-p/5104378" target="_blank">Data Center Frontiers: Greenfield vs. Brownfield in Cisco Deployments</a>
