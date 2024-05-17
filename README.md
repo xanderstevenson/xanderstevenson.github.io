@@ -27,15 +27,6 @@
   </tr>
 </table>
 
-Title: Cisco Certified DevNet Specialist - DevOps
-
-Provider: Cisco
-
-<br>
-
-Title: DevOps 101
-
-Provider: Simplilearn
 
 
 <br>
