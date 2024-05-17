@@ -11,13 +11,13 @@
 
 <table>
   <tr>
-    <td>Certification</td><td>Provider</td>
+    <td>Certification</td><td>Provider</td><td>Certificate</td>
   </tr>
   <tr>
-    <td>a1</td><td>b1</td>
+    <td>a1</td><td>b1</td><td></td>
   </tr>
     <tr>
-    <td>a1</td><td>b1</td>
+    <td>a1</td><td>b1</td><td></td>
   </tr>
 </table>
 
