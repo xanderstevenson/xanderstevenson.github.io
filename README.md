@@ -15,8 +15,8 @@
 <table style="margin:0 auto; text-align:center;">
   <tr>
     <td><b>Certification</b></td>
-    <td>Provider</td>
-    <td>Certificate</td>
+    <td><b>Provider</b></td>
+    <td><b>Certificate</b></td>
   </tr>
   <tr>
     <td>Cisco Certified DevNet Specialist - DevOps</td>
