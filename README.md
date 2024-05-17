@@ -11,7 +11,7 @@
 ### DevOps certifications
 
 <hr>
-
+<center>
 <table style="margin:0 auto; text-align:center;">
   <tr>
     <td><b>Certification</b></td>
@@ -39,7 +39,7 @@
     <td></td>
   </tr>
 </table>
-
+</center>
 
 <br>
 <br>
