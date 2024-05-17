@@ -42,7 +42,7 @@
 <hr>
 
 ### Sample of my Blogs and Knowledge Base articles published on the Cisco Community
-(Over 59,000 view for this list of articles alone!)
+(Over 59,000 views for this list of blogs / articles alone!)
 
 <hr>
 
