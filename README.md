@@ -9,15 +9,21 @@
 
 <hr>
 
-<table style="align-content:center; text-align:center; margin:0px auto">
+<table style="margin:0 auto; text-align:center;">
   <tr>
-    <td>Certification</td><td>Provider</td><td>Certificate</td>
+    <td>Certification</td>
+    <td>Provider</td>
+    <td>Certificate</td>
   </tr>
   <tr>
-    <td>Title: Cisco Certified DevNet Specialist - DevOps</td><td>Cisco</td><td></td>
+    <td>Title: Cisco Certified DevNet Specialist - DevOps</td>
+    <td>Cisco</td>
+    <td></td>
   </tr>
-    <tr>
-    <td>Title: DevOps 101</td><td>Simplilearn</td><td></td>
+  <tr>
+    <td>Title: DevOps 101</td>
+    <td>Simplilearn</td>
+    <td></td>
   </tr>
 </table>
 
