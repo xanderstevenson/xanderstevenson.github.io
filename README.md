@@ -1,6 +1,6 @@
 # Portfolio Page for Alexander Stevenson
 
-
+<br>
 
 ## Certifications
 <hr>
@@ -11,7 +11,8 @@
 
 
 
-
+<br>
+<br>
 
 
 
