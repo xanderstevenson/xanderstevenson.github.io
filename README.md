@@ -8,7 +8,7 @@
 ## Certifications
 <hr>
 
-### DevOps certifications
+### DevOps Certifications and Courses
 
 <hr>
 <center>
