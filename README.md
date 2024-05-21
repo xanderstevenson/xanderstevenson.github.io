@@ -34,7 +34,7 @@
 <center>
 <table style="margin:0 auto; text-align:center;">
   <tr>
-    <td><b>Certification</b></td>
+    <td><b>Course</b></td>
     <td><b>Provider</b></td>
     <td><b>Certificate</b></td>
   </tr>
