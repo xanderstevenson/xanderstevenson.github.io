@@ -23,7 +23,22 @@
     <td>Cisco</td>
     <td></td>
   </tr>
-    <tr>
+</table>
+</center>
+
+<br>
+
+### DevOps d Courses
+
+<hr>
+<center>
+<table style="margin:0 auto; text-align:center;">
+  <tr>
+    <td><b>Certification</b></td>
+    <td><b>Provider</b></td>
+    <td><b>Certificate</b></td>
+  </tr>
+  <tr>
     <td>Implementing DevOps Solutions and Practices Using Cisco Platforms</td>
     <td>Cisco</td>
     <td></td>
