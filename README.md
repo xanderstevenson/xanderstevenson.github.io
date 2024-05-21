@@ -5,10 +5,10 @@
 
 <br>
 
-## Certifications
+## DevOps
 <hr>
 
-### DevOps Certifications and Courses
+### DevOps Certifications
 
 <hr>
 <center>
