@@ -28,7 +28,7 @@
 
 <br>
 
-### DevOps d Courses
+### DevOps Courses
 
 <hr>
 <center>
