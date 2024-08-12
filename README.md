@@ -75,9 +75,6 @@ I'm the co-creator and the lead content developer of the [DevOps Shop video seri
 
 ![original-devops-dashboard-thumbnail](https://github.com/user-attachments/assets/3c4a0ce0-2ce8-4352-b99e-db438772d352)
 
-![Docker-for-DevOps-Thumbnail](https://github.com/user-attachments/assets/039e9e2c-0fae-4b60-b6fe-4afa1804caf3)
-
-
 
 
 <br>
