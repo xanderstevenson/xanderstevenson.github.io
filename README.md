@@ -89,6 +89,7 @@ I've made it a priority to study AI and ML and apply it as needed to my work and
 
 - [ciscolodex](https://github.com/xanderstevenson/ciscolodex) - a  offline tool written in Python and Tkinter which I used to provide basic answers to customer inquiries regarding DevNet, specifically the DevNet Associate Fundamentals Course.
 
+- [predictionary]() - This app, written in Python and with a Jupyter Notebook, prompts for a first name and uses that, along with your IP address and other info to guess your actual sex, age, and location.
 
 <br>
 
