@@ -15,7 +15,7 @@ I'm proficent and skilled in/with:
 - Python programming
 - Routing and switching technologies and devices
 - Linux administration
-- DevOps tools (Ansible, Terraform, Kubernetes, Cloud, DevSecOps, pyTest, Git, etc.)
+- DevOps tools (Ansible, Terraform, Kubernetes, Cloud, DevSecOps, Testing, Git, etc.)
 - Community management
 - Developer Advocacy - outreach, presenting / public speaking, engagement, learning / educating
 - AI, ML, and Data modeling
