@@ -38,10 +38,10 @@ I'm an experienced software, network, and DevOps engineer who specializes Develo
   </tr>
   <tr>
     <td>Network Support Engineer, Head of Managed Services</td>
-    <td>Communications Labratories</td>
+    <td>Comlabs Government Systems, Inc.</td>
     <td>July 2017 - Aug. 2018</td>
   <tr>
-    <td>IT Technician: Security, Network, Web, and e-Commerce Administrator</td>
+    <td>IT Technician: Security, Network, Web, & e-Commerce Admin</td>
     <td>Freelance; Self-employed IT professional</td>
     <td>Jan. 2014 - July 2017</td>
   </tr>
