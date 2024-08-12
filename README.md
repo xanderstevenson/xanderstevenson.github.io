@@ -7,7 +7,7 @@
 
 Who am I? Above all, I'm a professional in whatever I do. I empower teams and elevate the performance level of those around me.
 
-I have over 10 years of experience as a software, network, and DevOps engineer who specializes Developer Advocacy, Automation, and Full-Stack engineering.
+I'm an enthisiastic and goal-driven software, network, and DevOps engineer who specializes Developer Advocacy, Automation, and Full-Stack engineering. I have over 10 years of experience in network and software engineering.
 
 <br>
 
@@ -48,7 +48,7 @@ I have over 10 years of experience as a software, network, and DevOps engineer w
 </table>
 </center>
 
-
+<br>
 
 ## Certifications
 
