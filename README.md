@@ -69,7 +69,7 @@ I've made it a priority to study AI and ML and apply it as needed to my work and
 ## DevOps
 <hr>
 
-### DevOps Repos
+### DevOps Projects I've created:
 
 - **[meeting-agenda-and-recap](https://github.com/xanderstevenson/meeting-agenda-and-recap)** - Automates the posting of meeting agendas and recaps in Webex spaces. It also keep records of the agendas and recaps sent. Written in Python.
 
