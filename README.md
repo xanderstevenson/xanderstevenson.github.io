@@ -69,7 +69,10 @@ I've made it a priority to study AI and ML and apply it as needed to my work and
 ## DevOps
 <hr>
 
-### DevOps Certifications
+I'm the co-creator and the lead content developer of the [DevOps Shop video series](https://www.youtube.com/watch?v=t6FeomBCfCg&list=PL2k86RlAekM9ulG4xak-jmCvf1-Ot-biu), which is hosted on [Cisco DevNet's YouTube channel](https://www.youtube.com/@CiscoDevNetchannel). Currently, 17 video have been published, with total views of over 18,000.
+
+
+### DevOps Certification
 
 <hr>
 <center>
@@ -102,16 +105,6 @@ I've made it a priority to study AI and ML and apply it as needed to my work and
   <tr>
     <td>Implementing DevOps Solutions and Practices Using Cisco Platforms</td>
     <td>Cisco</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>DevOps 101</td>
-    <td>Simplilearn</td>
-    <td></td>
-  </tr>
-    <tr>
-    <td>Introduction to DevOps</td>
-    <td>Great Learning Academy</td>
     <td></td>
   </tr>
 </table>
