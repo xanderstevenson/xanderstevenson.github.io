@@ -7,7 +7,23 @@
 
 Who am I? Above all, I'm a professional in whatever I do. I empower teams and elevate the performance level of those around me.
 
-I'm an enthisiastic and goal-driven software, network, and DevOps engineer who specializes Developer Advocacy, Automation, and Full-Stack engineering. I have over 10 years of experience in network and software engineering.
+I'm an enthisiastic and goal-driven software, network, and DevOps engineer who specializes Developer Advocacy, Automation, AI/ML, and Full-Stack engineering. I have over 10 years of experience in network and software engineering.
+
+I'm proficent and skilled in/with:
+
+- IT leadership
+- Python programming
+- Routing and switching technologies and devices
+- Linux administration
+- DevOps tools (Ansible, Terraform, Kubernetes, Cloud, DevSecOps, Testing, Git, etc.)
+- Community management
+- Developer Advocacy - outreach, presenting / public speaking, engagement, learning / educating
+- AI, ML, and Data modeling
+- Technical writing
+- Learning lab creation
+- Sandbox administration
+- Technical demo creation execution
+- Monitoring
 
 <br>
 
