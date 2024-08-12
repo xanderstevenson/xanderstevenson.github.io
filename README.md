@@ -29,7 +29,7 @@ I'm an enthisiastic and goal-driven software, network, and DevOps engineer who s
   <tr>
     <td>Full Stack Python Developer</td>
     <td>Apple</td>
-    <td>July - Oct. 2019</td>
+    <td>July 2019 - Oct. 2019</td>
   </tr>
   <tr>
     <td>Software Engineer Apprentice</td>
