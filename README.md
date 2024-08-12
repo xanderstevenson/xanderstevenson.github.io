@@ -22,7 +22,7 @@ I'm an experienced software, network, and DevOps engineer who specializes Develo
     <td><b>Dates</b></td>
   </tr>
   <tr>
-    <td>Software Engineer and Developer Advocate</td>
+    <td>Software Engineer / Developer Advocate</td>
     <td>Cisco DevNet</td>
     <td>Dec. 2019 - Present</td>
   </tr>
@@ -41,7 +41,6 @@ I'm an experienced software, network, and DevOps engineer who specializes Develo
     <td>Communications Labratories</td>
     <td>July 2017 - Aug. 2018</td>
   <tr>
-    <td>
     <td>IT Technician: Security, Network, Web, and e-Commerce Administrator</td>
     <td>Freelance; Self-employed IT professional</td>
     <td>Jan. 2014 - July 2017</td>
