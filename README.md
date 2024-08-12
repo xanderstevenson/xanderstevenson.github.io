@@ -10,6 +10,8 @@
 
 I've made it a priority to study AI and ML and apply it as needed to my work and personal projects. I've shared this knowledge and experience with other, so they too can take their AI/ML skills to the next level.
 
+<br>
+
 ### AI/ML Learning Labs I've authored:
 
 - [Machine Learning for Network Engineers: Part 1](https://developer.cisco.com/learning/labs/ml-for-network-engineers-part-1/) - wildly successful foundational lab and the first of it's kind at Cisco
@@ -17,7 +19,7 @@ I've made it a priority to study AI and ML and apply it as needed to my work and
 
 <br>
 
-### AI/ML Articles and Blogs I've Authored:
+### AI/ML Articles and Blogs I've authored:
 
 - [Exploring Cisco's Machine Learning-Enhanced Solutions](https://community.cisco.com/t5/devnet-general-blogs/exploring-cisco-s-machine-learning-enhanced-solutions/ba-p/5145655)
 
