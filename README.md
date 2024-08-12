@@ -83,24 +83,11 @@ I've made it a priority to study AI and ML and apply it as needed to my work and
 
 - [swiss-army-conf](https://github.com/xanderstevenson/swiss-army-conf) - Written in Python, this tool offers those monitoring a network device with 3 avenues for viewing device configuration: NETCONF, RESTCONF and SSH. The results are automatically logged in XML, JSON and text formats, respectively.
 
-- [community-content-pipeline](https://github.com/xanderstevenson/community-content-pipeline) - The continuous integration pipeline which accomplishes:
+- [community-content-pipeline](https://github.com/xanderstevenson/community-content-pipeline) - The continuous integration pipeline creates a new project folder based on a .docx file name and will automatically convert the .docx to a downloadable MP3, saving it in an 'mp3s' sub-folder in your new project. All URLs and empty lines will have been removed, to give your audio a smooth, consistent flow. It also allows you some control over which spoken accent the MP3 will use. The final result is a text source of truth (.docx, .txt and MP3) for your blog or article.
 
-A) Provides a template for your blog or article and shows you how to check it for spelling and grammar errors
+- [txt_2_mp3](https://github.com/xanderstevenson/txt_2_mp3) - a limited subset of the above repo, it is a Python program to convert a .txt file, in English, into an MP3 audio file, with choice of English language accent
 
-B) Shows how to create a directory and upload your blog or article in .docx format
-
-C) An automated workflow will create a new project folder based on your .docx file name. So, uploading a .docx named "UCCE Script Generation" will create a folder with the name "UCCE_Script_Generation". Automation will convert the .docx to an MP3, saving it in an 'mp3s' sub-folder in your new project. All URLs and empty lines will have been removed, to give your audio a smooth, consistent flow. In the end, you'll have:
-
-  - A new folder, named for your .docx file, inside of which will be:
-  - A downloadable copy of you original .docx document
-  - A readable .txt version of your document
-  - A downloadable MP3, inside of an 'mp3s' sub-folder
-
-D) Explains the need to compress your MP3 into a ZIP in order to attach it to your article or blog
-
-E) Gives alternate means of generating your MP3, for more control over spoken accent.
-
-The final result is a text source of truth (.docx, .txt and MP3) for your blog or article in the relative directory in this repo. This data structure of blog and article neta data serves as a record, backup and can eventually serve as an archive for published on the Cisco Community - Developer Hub.
+- [ciscolodex](https://github.com/xanderstevenson/ciscolodex) - a  offline tool written in Python and Tkinter which I used to provide basic answers to customer inquiries regarding DevNet, specifically the DevNet Associate Fundamentals Course.
 
 
 <br>
