@@ -5,6 +5,44 @@
 
 <br>
 
+
+
+### DCertifications
+
+<hr>
+<center>
+<table style="margin:0 auto; text-align:center;">
+  <tr>
+    <td><b>Certification</b></td>
+    <td><b>Provider</b></td>
+    <td><b>Certificate</b></td>
+  </tr>
+  <tr>
+    <td>Cisco Certified DevNet Specialist - DevOps</td>
+    <td>Cisco</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Cisco Certified DevNet Associate</td>
+    <td>Cisco</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Cisco Certified CyberOps Associate</td>
+    <td>Cisco</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Network+, Security+, A+</td>
+    <td>CompTIA</td>
+    <td></td>
+  </tr>
+</table>
+</center>
+
+<br>
+
+
 ## Artificial Intelligence and Machine Learning
 <hr>
 
