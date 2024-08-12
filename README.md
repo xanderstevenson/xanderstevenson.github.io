@@ -71,7 +71,7 @@ I've made it a priority to study AI and ML and apply it as needed to my work and
 
 ### DevOps Repos
 
-- [meeting-agenda-and-recap](https://github.com/xanderstevenson/meeting-agenda-and-recap) - Automates the posting of meeting agendas and recaps in Webex spaces. It also keep records of the agendas and recaps sent. Written in Python.
+- **[meeting-agenda-and-recap](https://github.com/xanderstevenson/meeting-agenda-and-recap)** - Automates the posting of meeting agendas and recaps in Webex spaces. It also keep records of the agendas and recaps sent. Written in Python.
 
 - [simple-netdevops-ci](https://github.com/xanderstevenson/simple-netdevops-ci) - This is a simple and free CI pipeline that receives a webhook from GitHub whenever anything changes in the GitHub repo. The webhook triggers a build action in Jenkins that runs a shell that clones the GitHub repo and creates a virtual environment to run pytests. Currently, the repo I am cloning from is based on Ansible, so my tests are for Ansible playbooks and inventory files, but those can be adapted to test whatever you want. If a pytest fails, a message with details is sent to a Webex space and the build fails as well.
 
