@@ -25,7 +25,7 @@ I've made it a priority to study AI and ML and apply it as needed to my work and
 
 - [Artificial Intelligence (AI) at the Edge](https://community.cisco.com/t5/edge-data-management/artificial-intelligence-ai-at-the-edge/td-p/4674085)
 
-
+<br>
 <br>
 
 ## DevOps
@@ -82,7 +82,6 @@ I've made it a priority to study AI and ML and apply it as needed to my work and
 <br>
 <br>
 
-<br>
 
 ## Data Center
 
@@ -99,7 +98,7 @@ In my capacity as Developer Advocate for Data Center at Cisco DevNet, I am respo
 - [Automating Network Tasks with Cisco NX-OS Device-Level APIs](https://developer.cisco.com/learning/labs/dne-dci-nxos-device-level-apis/introduction/)) - received extremely high scores at Cisco Live.
 
 <br>
-
+<br>
 
 ## Technical Writing
 
