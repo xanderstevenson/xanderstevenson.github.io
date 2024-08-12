@@ -5,6 +5,50 @@
 
 <br>
 
+Who am I? Above all, I'm a professional in whatever I do. I empower teams and elevate the performance level of those around me.
+
+I'm an experienced software, network, and DevOps engineer who specializes Developer Advocacy, Automation, and Full-Stack engineering, 
+
+<br>
+
+## Employment
+
+<hr>
+<center>
+<table style="margin:0 auto; text-align:center;">
+  <tr>
+    <td><b>Position</b></td>
+    <td><b>Employer</b></td>
+    <td><b>Dates</b></td>
+  </tr>
+  <tr>
+    <td>Software Engineer and Developer Advocate</td>
+    <td>Cisco DevNet</td>
+    <td>Dec. 2019 - Present</td>
+  </tr>
+  <tr>
+    <td>Full Stack Python Developer</td>
+    <td>Apple</td>
+    <td>July - Oct. 2019</td>
+  </tr>
+  <tr>
+    <td>Software Engineer Apprentice</td>
+    <td>Code Platoon</td>
+    <td>Aug. 2018 - May 2019</td>
+  </tr>
+  <tr>
+    <td>Network Support Engineer, Head of Managed Services</td>
+    <td>Communications Labratories</td>
+    <td>July 2017 - Aug. 2018</td>
+  <tr>
+    <td>
+    <td>IT Technician: Security, Network, Web, and e-Commerce Administrator</td>
+    <td>Freelance; Self-employed IT professional</td>
+    <td>Jan. 2014 - July 2017</td>
+  </tr>
+</table>
+</center>
+
 
 
 ## Certifications
