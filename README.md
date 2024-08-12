@@ -82,6 +82,23 @@ I've made it a priority to study AI and ML and apply it as needed to my work and
 <br>
 <br>
 
+<br>
+
+## Data Center
+
+In my capacity as Developer Advocate for Data Center at Cisco DevNet, I am responsible for managing our assets and interactions with the following technologies:
+
+- ACI
+- Intersight
+- UCS
+
+<br>
+
+### Data Center Learning Labs I've authored:
+
+- [Automating Network Tasks with Cisco NX-OS Device-Level APIs](https://developer.cisco.com/learning/labs/dne-dci-nxos-device-level-apis/introduction/)) - received extremely high scores at Cisco Live.
+
+<br>
 
 
 ## Technical Writing
