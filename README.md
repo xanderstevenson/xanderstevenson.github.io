@@ -69,6 +69,43 @@ I've made it a priority to study AI and ML and apply it as needed to my work and
 ## DevOps
 <hr>
 
+### DevOps Repos
+
+- [meeting-agenda-and-recap](https://github.com/xanderstevenson/meeting-agenda-and-recap) - Automates the posting of meeting agendas and recaps in Webex spaces. It also keep records of the agendas and recaps sent. Written in Python.
+
+- [simple-netdevops-ci](https://github.com/xanderstevenson/simple-netdevops-ci) - This is a simple and free CI pipeline that receives a webhook from GitHub whenever anything changes in the GitHub repo. The webhook triggers a build action in Jenkins that runs a shell that clones the GitHub repo and creates a virtual environment to run pytests. Currently, the repo I am cloning from is based on Ansible, so my tests are for Ansible playbooks and inventory files, but those can be adapted to test whatever you want. If a pytest fails, a message with details is sent to a Webex space and the build fails as well.
+
+- [intro-ansible-automation](https://github.com/xanderstevenson/intro-ansible-automation) - Automate the creation of ACLs, routing reports, and local files, and more using variables and conditionals in Ansible playbooks. Presented at multiple Cisco Lives.
+
+- [word-of-the-day](https://github.com/xanderstevenson/word-of-the-day) - A Webex bot, written in Python, which sends a random tech word to a Webex Space and to LinkedIn daily, using APIs. Anyone can join the space: https://eurl.io/#3wNrmU0-1
+
+- [diy-devops-dashboard](https://github.com/xanderstevenson/diy-devops-dashboard) - I made this project as a way for those new to DevOps to get started with the basic technologies involved (GitHub, Docker, GitLab, Jenkins, Terraform, Elasticsearch). It provides the user with an all-in-one place to see their progress and to better understand how these different tools interact in the DevOps lifecycle. This project runs a Flask App, which serves the web dashboard. It is written in Python and most of the data is collected via external API calls, with Docker and Jenkins data being collected straight from your machine. Besides displaying all your DevOps data neatly organized in the dashboard, you can send the data to a Webex space via message by clicking the 'Post to Webex' button in the menu.
+
+- [swiss-army-conf](https://github.com/xanderstevenson/swiss-army-conf) - Written in Python, this tool offers those monitoring a network device with 3 avenues for viewing device configuration: NETCONF, RESTCONF and SSH. The results are automatically logged in XML, JSON and text formats, respectively.
+
+- [community-content-pipeline](https://github.com/xanderstevenson/community-content-pipeline) - The continuous integration pipeline which accomplishes:
+
+A) Provides a template for your blog or article and shows you how to check it for spelling and grammar errors
+
+B) Shows how to create a directory and upload your blog or article in .docx format
+
+C) An automated workflow will create a new project folder based on your .docx file name. So, uploading a .docx named "UCCE Script Generation" will create a folder with the name "UCCE_Script_Generation". Automation will convert the .docx to an MP3, saving it in an 'mp3s' sub-folder in your new project. All URLs and empty lines will have been removed, to give your audio a smooth, consistent flow. In the end, you'll have:
+
+  - A new folder, named for your .docx file, inside of which will be:
+  - A downloadable copy of you original .docx document
+  - A readable .txt version of your document
+  - A downloadable MP3, inside of an 'mp3s' sub-folder
+
+D) Explains the need to compress your MP3 into a ZIP in order to attach it to your article or blog
+
+E) Gives alternate means of generating your MP3, for more control over spoken accent.
+
+The final result is a text source of truth (.docx, .txt and MP3) for your blog or article in the relative directory in this repo. This data structure of blog and article neta data serves as a record, backup and can eventually serve as an archive for published on the Cisco Community - Developer Hub.
+
+
+<br>
+
+
 ### The DevOps Shop
 
 I'm the co-creator and the lead content developer of the [DevOps Shop video series](https://www.youtube.com/watch?v=t6FeomBCfCg&list=PL2k86RlAekM9ulG4xak-jmCvf1-Ot-biu), which is hosted on [Cisco DevNet's YouTube channel](https://www.youtube.com/@CiscoDevNetchannel). Currently, 17 video have been published, with total views of over 18,000.
