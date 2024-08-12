@@ -14,6 +14,7 @@ I've made it a priority to study AI and ML and apply it as needed to my work and
 
 - [Machine Learning for Network Engineers: Part 1](https://developer.cisco.com/learning/labs/ml-for-network-engineers-part-1/) - wildly successful foundational lab and the first of it's kind at Cisco
 
+<br>
 
 ## DevOps
 <hr>
