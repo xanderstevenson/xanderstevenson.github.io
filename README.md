@@ -69,8 +69,17 @@ I've made it a priority to study AI and ML and apply it as needed to my work and
 ## DevOps
 <hr>
 
+### The DevOps Shop
+
 I'm the co-creator and the lead content developer of the [DevOps Shop video series](https://www.youtube.com/watch?v=t6FeomBCfCg&list=PL2k86RlAekM9ulG4xak-jmCvf1-Ot-biu), which is hosted on [Cisco DevNet's YouTube channel](https://www.youtube.com/@CiscoDevNetchannel). Currently, 17 video have been published, with total views of over 18,000.
 
+![original-devops-dashboard-thumbnail](https://github.com/user-attachments/assets/3c4a0ce0-2ce8-4352-b99e-db438772d352)
+
+![Uploading Docker-for-DevOps-Thumbnail.png…]()
+
+
+
+<br>
 
 ### DevOps Certification
 
