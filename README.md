@@ -13,6 +13,8 @@ Who am I? I'm Alexander Stevenson. Above all, **I'm a professional in whatever I
 
 I'm an enthisiastic and goal-driven software, network, and DevOps engineer who specializes Developer Advocacy, Automation, AI/ML, and Full-Stack engineering. I have over 10 years of experience in network and software engineering.
 
+<hr>
+
 I'm proficent and skilled in/with:
 
 - IT leadership
