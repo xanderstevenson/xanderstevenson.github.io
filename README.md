@@ -116,6 +116,14 @@ I've made it a priority to study AI and ML and apply it as needed to my work and
 
 <br>
 
+### AI/ML Video I'm created:
+
+- [Transforming DevOps with AI and ML: Innovations and Strategies](https://youtu.be/jyvmkXj2o-8) - Part of the DevOps Shop series on YouTube. In this video, we explore the transformative impact of integrating Artificial Intelligence (AI) and Machine Learning (ML) with DevOps. We delve into how these technologies enhance automation, efficiency, and decision-making in software development and IT operations. 
+
+We also examine the evolution of specialized hardware, address key challenges in AI/ML integration, and look at how Cisco utilizes these technologies to enhance its products. By the end, you'll better understand the current trends and future directions in this dynamic field.
+
+<br>
+
 ### AI/ML Articles and Blogs I've authored:
 
 - [Exploring Cisco's Machine Learning-Enhanced Solutions](https://community.cisco.com/t5/devnet-general-blogs/exploring-cisco-s-machine-learning-enhanced-solutions/ba-p/5145655)
