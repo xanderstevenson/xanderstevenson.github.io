@@ -263,7 +263,7 @@ In my capacity as Developer Advocate for Data Center at Cisco DevNet, I am respo
 
 <a href="https://community.cisco.com/t5/security-knowledge-base/developer-security-cheat-sheet/ta-p/4753148" target="_blank">Developer Security Cheat Sheet</a>
 
-<a href="https://community.cisco.com/t5/devnet-general-knowledge-base/xml-vs-json-vs-yaml/ta-p/4729758" target="_blank">XML vs. JSON vs. YAML</a> (nearly 20,000 views!)
+<a href="https://community.cisco.com/t5/devnet-general-knowledge-base/xml-vs-json-vs-yaml/ta-p/4729758" target="_blank">XML vs. JSON vs. YAML</a> (over 23,000 views!)
 
 <a href="https://community.cisco.com/t5/devnet-general-knowledge-base/devsecops-defined/ta-p/4712801" target="_blank">DevSecOps Defined</a>
 
