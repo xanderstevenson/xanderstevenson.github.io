@@ -2,7 +2,7 @@
 
 <h1 align="center">Portfolio Page for Alexander Stevenson</h1>
 <p align="center">
-<img src="https://github.com/user-attachments/assets/339f0c4c-402e-45a3-b322-ff193e3f5ed0" width="200">
+<img src="https://github.com/user-attachments/assets/339f0c4c-402e-45a3-b322-ff193e3f5ed0" width="150">
 </p>
 
 
