@@ -111,7 +111,7 @@ I've made it a priority to study AI and ML and apply it as needed to my work and
 
 ### AI/ML Learning Labs I've authored:
 
-- [Machine Learning for Network Engineers: Part 1](https://developer.cisco.com/learning/labs/ml-for-network-engineers-part-1/) - wildly successful foundational lab and the first of it's kind at Cisco
+- [Machine Learning for Network Engineers: Part 1](https://developer.cisco.com/learning/labs/ml-for-network-engineers-part-1/) - wildly successful foundational lab and the first of it's kind at Cisco. This Learning Lab introduces the foundational concepts of machine learning (ML) in a format suitable for network engineers and others who are new to the field of artificial intelligence (AI) and ML and who are interested in experimenting and learning how to apply ML techniques to improve their performance.
 
 
 <br>
