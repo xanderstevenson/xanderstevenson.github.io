@@ -221,7 +221,13 @@ In my capacity as Developer Advocate for Data Center at Cisco DevNet, I am respo
 
 ### Data Center Learning Labs I've authored:
 
-- [Automating Network Tasks with Cisco NX-OS Device-Level APIs](https://developer.cisco.com/learning/labs/dne-dci-nxos-device-level-apis/introduction/)) - received extremely high scores at Cisco Live.
+- [Automating Network Tasks with Cisco NX-OS Device-Level APIs](https://developer.cisco.com/learning/labs/dne-dci-nxos-device-level-apis/introduction/) - received extremely high scores at Cisco Live.
+
+<br>
+
+### Data Center Projects I've created
+
+[data-center-development](https://github.com/CiscoDevNet/data-center-development/tree/main) - this massive repo demonstrates automation for Cisco Data Center products such as AC, NX-OS, and Intersight, using tools and technologies such as Ansible, Terraform, Python, and more.
 
 <br>
 <br>
