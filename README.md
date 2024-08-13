@@ -227,7 +227,7 @@ In my capacity as Developer Advocate for Data Center at Cisco DevNet, I am respo
 
 ### Data Center Projects I've created
 
-[data-center-development](https://github.com/CiscoDevNet/data-center-development/tree/main) - this massive repo demonstrates automation for Cisco Data Center products such as AC, NX-OS, and Intersight, using tools and technologies such as Ansible, Terraform, Python, and more.
+[data-center-development](https://github.com/CiscoDevNet/data-center-development/tree/main) - This project explores automation solutions for each of Cisco's main Data Center products, including ACI, Intersight, NX-OS, and NDFC. Various tools and technologies are used, such as Ansible, Terraform, Python, Postman, and more. After exploring this repo, you'll better understand how to automate the creation and management of the data center.
 
 <br>
 <br>
