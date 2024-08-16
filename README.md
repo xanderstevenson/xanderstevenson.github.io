@@ -9,7 +9,7 @@
 
 <br>
 
-Who am I? I'm Alexander Stevenson. Above all, **I'm a professional in whatever I do**. I empower teams and elevate the performance level of those around me.
+Who am I? I'm Alexander Stevenson. Above all, **I strive to be professional, yet compassionate, in whatever I do**. I empower teams and elevate the performance level of those around me.
 
 I'm an enthisiastic and goal-driven software, network, and DevOps engineer who specializes Developer Advocacy, Automation, AI/ML, and Full-Stack engineering. I have over 10 years of experience in network and software engineering.
 
@@ -133,6 +133,14 @@ I've made it a priority to study AI and ML and apply it as needed to my work and
 - [Exploring Cisco's Machine Learning-Enhanced Solutions](https://community.cisco.com/t5/devnet-general-blogs/exploring-cisco-s-machine-learning-enhanced-solutions/ba-p/5145655)
 
 - [Artificial Intelligence (AI) at the Edge](https://community.cisco.com/t5/edge-data-management/artificial-intelligence-ai-at-the-edge/td-p/4674085)
+
+### Artificial Intelligence Groups I'm a member of
+
+**BridgeIT Insights Group** - at Cisco DevNet. BridgeIT is DevNet's internal AI for employee use and I help oversee it's development and progress.
+
+**DevNet AI Tiger Team** - also at DevNet. This team is the cutting-edge leadership group guiding decision-making in all things AI/ML related.
+
+
 
 <br>
 <br>
