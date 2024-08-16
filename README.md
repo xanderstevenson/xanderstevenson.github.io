@@ -134,6 +134,8 @@ I've made it a priority to study AI and ML and apply it as needed to my work and
 
 - [Artificial Intelligence (AI) at the Edge](https://community.cisco.com/t5/edge-data-management/artificial-intelligence-ai-at-the-edge/td-p/4674085)
 
+<br>
+
 ### Artificial Intelligence Groups I'm a member of
 
 **BridgeIT Insights Group** - at Cisco DevNet. BridgeIT is DevNet's internal AI for employee use and I help oversee it's development and progress.
