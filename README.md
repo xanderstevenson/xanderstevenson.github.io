@@ -236,6 +236,20 @@ In my capacity as Developer Advocate for Data Center at Cisco DevNet, I am respo
 [data-center-development](https://github.com/CiscoDevNet/data-center-development/tree/main) - This project explores automation solutions for each of Cisco's main Data Center products, including ACI, Intersight, NX-OS, and NDFC. Various tools and technologies are used, such as Ansible, Terraform, Python, Postman, and more. After exploring this repo, you'll better understand how to automate the creation and management of the data center.
 
 <br>
+
+### Data Center Webinars I've been a panelist on
+
+Empowering Data Center Efficiency with Automation Strategies for Nexus and ACI
+
+<link rel="stylesheet" type="text/css" href="files/styles.css">
+
+<h1 align="center">Portfolio Page for Alexander Stevenson</h1>
+<p align="center">
+<img src="files/images/data-center/PyNet Labs - small.jpeg" width="150">
+</p>
+
+
+<br>
 <br>
 
 ## Technical Writing
