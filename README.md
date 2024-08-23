@@ -249,7 +249,7 @@ In my capacity as Developer Advocate for Data Center at Cisco DevNet, I am respo
 
 ### Data Center Webinars I've been a panelist on
 
-Empowering Data Center Efficiency with Automation Strategies for Nexus and ACI
+[Empowering Data Center Efficiency with Automation Strategies for Nexus and ACI](https://www.youtube.com/live/eNcAxdC_ens)
 
 <p align="center">
 <img src="files/images/data-center/PyNet Labs - small.jpeg" width="450">
