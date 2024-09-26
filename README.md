@@ -1,3 +1,20 @@
+<div>
+    <style>
+        p {
+            color: red;
+        }
+        h1 {
+            font-family: Arial, sans-serif;
+        }
+        .custom {
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+</div>
+
+
+
 <link rel="stylesheet" type="text/css" href="https://xanderstevenson.github.io/files/styles.css">
 <h2 align="center">Senior Software, Network, Data Center, DevOps, and AI Engineer and Developer Advocate</h2>
 <p align="center">
