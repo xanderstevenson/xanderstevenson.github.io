@@ -2,7 +2,7 @@
 <h2 align="center">Senior Software, Network, Data Center, DevOps, & AI Engineer and Advocate</h2>
 <h2 align="center">Alexander Stevenson</h2>
 <p align="center">
-<img src="https://github.com/user-attachments/assets/339f0c4c-402e-45a3-b322-ff193e3f5ed0" width="150">
+<img src="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/AlexStevenson-portrait.PNG" width="150">
 </p>
 
 
