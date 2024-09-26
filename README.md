@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="/files/styles.css">
+<link rel="stylesheet" type="text/css" href="https://xanderstevenson.github.io/files/styles.css">
 <h2 align="center">Senior Software, Network, Data Center, DevOps, and AI Engineer and Developer Advocate</h2>
 <p align="center">
 <img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/AlexStevenson-portrait.PNG" width="150">
