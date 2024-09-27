@@ -17,6 +17,47 @@
         .underline {
         text-decoration: underline;
         }
+
+                /* Basic styling for the menu */
+        .menu {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Style for each menu item */
+        .menu a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Hover effect for menu items */
+        .menu a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        /* Styling for the sections */
+        section {
+            padding: 50px;
+            margin: 20px auto;
+            max-width: 800px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        #ai {
+            background-color: #f4f6f7;
+        }
+
+        #devops {
+            background-color: #e8f6f3;
+        }
     </style>
 </head>
 <body>
@@ -42,6 +83,13 @@
 
 <hr>
 
+<nav class="menu" align="center">
+    <a href="#ai">AI</a>
+    <a href="#devops">DevOps</a>
+</nav>    
+    
+<hr>
+
 <p><strong>I'm proficient and skilled in/with:</strong></p>
 <ul>
     <li>IT leadership</li>
@@ -56,13 +104,13 @@
     <li>Learning lab creation</li>
     <li>Sandbox administration</li>
     <li>Technical demo creation execution</li>
-    <li>Monitoring</li>
+    <li>Dashboards and Monitoring</li>
 </ul>
 
 <br>
 <br>
 
-<h2 align="center>Artificial Intelligence and Machine Learning samples</h2>
+<h2 align="center id="ai">Artificial Intelligence and Machine Learning samples</h2>
 <hr>
 
 <p>I've made it a priority to study AI and ML and apply it as needed to my work and personal projects. I've shared this knowledge and experience with others, so they too can take their AI/ML skills to the next level.</p>
@@ -113,7 +161,7 @@
 <h2>DevOps</h2>
 <hr>
 
-<h3>DevOps Projects I've created:</h3>
+<h3 align="center id="devops">DevOps Projects I've created:</h3>
 <ul>
     <li>
         <strong><a href="https://github.com/xanderstevenson/diy-devops-dashboard">diy-devops-dashboard</a></strong> - I made this project as a way for those new to DevOps to get started with the basic technologies involved (GitHub, Docker, GitLab, Jenkins, Terraform, Elasticsearch). It provides the user with an all-in-one place to see their progress and to better understand how these different tools interact in the DevOps
