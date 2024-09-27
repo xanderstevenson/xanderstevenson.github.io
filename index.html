@@ -50,24 +50,30 @@
             background-color: rgba(255, 255, 255, 0.2);
             transform: translateY(-3px);
         }
+        .container {
+            display: flex; /* Enable flexbox on the container */
+            justify-content: center; /* Center the box horizontally */
+        }
+        
         .centered-box {
-        border: 1px solid gray; /* Border around the box */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
-        display: inline-block; /* Makes the box adapt to its content */
-        padding: 10px 15px; /* Padding around the text */
-        margin: 5px auto; /* Centers the box */
-        background: linear-gradient(to right, #A7C6ED, #E1F2FA); /* Background gradient */
-        text-align: center; /* Centers text inside the box */
+            border: 1px solid gray; /* Border around the box */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+            padding: 10px 15px; /* Padding around the text */
+            margin: 5px; /* Margin around the box */
+            background: linear-gradient(to right, #A7C6ED, #E1F2FA); /* Background gradient */
+            text-align: center; /* Centers text inside the box */
         }
 
     </style>
 </head>
 <body>
 
+<div class="container">    
 <div class="centered-box">
 <h3 align="center">Portfolio of:</h3>
 <h1 align="center">Alexander Stevenson</h1>
 <h2 align="center">Software, Network, Data Center, DevOps, and AI Engineer / Advocate</h2>
+</div>
 </div>
 <p align="center">
     <img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/AlexStevenson-portrait.PNG" width="125" alt="Alex Stevenson Portrait">
