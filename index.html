@@ -18,45 +18,34 @@
         text-decoration: underline;
         }
 
-                /* Basic styling for the menu */
+        /* New styling for the menu */
         .menu {
             display: flex;
             justify-content: center;
-            background-color: gray;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            border-radius: 50px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 10px;
-            margin-bottom: 20px;
+            margin: 20px auto;
+            width: fit-content;
         }
 
         /* Style for each menu item */
         .menu a {
-            color: white;
+            color: #fff;
             text-decoration: none;
-            padding: 15px 20px;
-            font-size: 18px;
-            transition: background-color 0.3s ease;
+            padding: 15px 25px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 30px;
+            transition: background 0.3s ease, transform 0.3s ease;
+            margin: 0 5px;
         }
 
         /* Hover effect for menu items */
         .menu a:hover {
-            background-color: #555;
-            border-radius: 5px;
-        }
-
-        /* Styling for the sections */
-        section {
-            padding: 50px;
-            margin: 20px auto;
-            max-width: 800px;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-        }
-
-        #ai {
-            background-color: #f4f6f7;
-        }
-
-        #devops {
-            background-color: #e8f6f3;
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-3px);
         }
     </style>
 </head>
