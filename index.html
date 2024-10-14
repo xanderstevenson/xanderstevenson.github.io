@@ -22,36 +22,42 @@
             text-decoration: underline;
         }
         /* New styling for the menu */
-        .menu {
-            display: flex;
-            justify-content: center;
-            background: linear-gradient(to right, #A7C6ED, #E1F2FA); /* Softer gradient colors */
-            border-radius: 50px;
-            border: 1px solid gray;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 10px;
-            margin: 20px auto;
-            width: 100%; /* Let it take full width by default */
-            max-width: 400px; /* Optional: Set a max width */
-            box-sizing: border-box; /* Ensures padding is included in the width */
-        }
+.menu {
+    display: flex;
+    justify-content: center; /* Center items */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    background: linear-gradient(to right, #A7C6ED, #E1F2FA); /* Softer gradient colors */
+    border-radius: 50px;
+    border: 1px solid gray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 20px auto;
+    width: 100%; /* Full width */
+    max-width: 600px; /* Maximum width for larger screens */
+    box-sizing: border-box; /* Include padding in width */
+}
 
-        /* Style for each menu item */
-        .menu a {
-            color: #444444;
-            text-decoration: none;
-            padding: 15px 25px;
-            font-size: 16px;
-            font-weight: 600;
-            border-radius: 30px;
-            transition: background 0.3s ease, transform 0.3s ease;
-            margin: 0 5px;
-        }
-        /* Hover effect for menu items */
-        .menu a:hover {
-            background-color: rgba(255, 255, 255, 0.2);
-            transform: translateY(-3px);
-        }
+.menu a {
+    padding: 10px 15px; /* Add some padding for clickable area */
+    text-decoration: none; /* Remove underline from links */
+    color: #444444; /* Text color */
+    margin: 5px; /* Space between links */
+    border-radius: 25px; /* Rounded corners for links */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.menu a:hover {
+    background: rgba(255, 255, 255, 0.2); /* Lighten on hover */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    .menu {
+        flex-direction: column; /* Stack items vertically */
+        width: 90%; /* 90% width on small screens */
+    }
+}
+
         .container {
             display: flex; /* Enable flexbox on the container */
             justify-content: center; /* Center the box horizontally */
