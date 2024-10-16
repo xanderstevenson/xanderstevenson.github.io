@@ -79,15 +79,16 @@
             border-radius: 8px; /* Optional: adds rounded corners to the images */
         }
 
-    .bordered-box {
-        align-content: center;
-        border: 1px solid gray;
-        text-align: left;
-        font-size: 12px;
-        display: inline-block;  /* Makes the div fit its content */
-        padding: 5px;          /* Adds some space around the text */
-        margin: 5px;           /* Optional: Adds space around the box */
-    }
+        .bordered-box {
+            border: 1px solid gray;
+            text-align: left; /* Change this if you want left alignment inside the box */
+            font-size: 12px;
+            display: inline-block;  /* Makes the div fit its content */
+            padding: 5px;          /* Adds some space around the text */
+            margin: 10px auto;     /* Centers the box and adds some space around it */
+            width: auto;           /* Ensures the width is based on content */
+        }
+
         
     </style>
 </head>
@@ -105,12 +106,13 @@
 </p>
     
 <div class="bordered-box">
-<p style="font-size: 12px" align="center">
-    Email: <a href="mailto:alexstev.dev@gamil.com">alexstev.dev@gmail.com</a><br>
-    LinkedIn: <a href="https://www.linkedin.com/in/xanderstevenson/" target="_blank">https://www.linkedin.com/in/xanderstevenson/</a><br>
-    View My <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/Alex-Stevenson-Resume.docx" target="_blank">Resume (Word Document)</a>
-</p>
+    <p style="font-size: 12px">
+        Email: <a href="mailto:alexstev.dev@gmail.com">alexstev.dev@gmail.com</a><br>
+        LinkedIn: <a href="https://www.linkedin.com/in/xanderstevenson/" target="_blank">https://www.linkedin.com/in/xanderstevenson/</a><br>
+        View My <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/Alex-Stevenson-Resume.docx" target="_blank">Resume (Word Document)</a>
+    </p>
 </div>
+
 
 <p align="center">Above all, <em>I strive to be professional, yet compassionate</em>, in whatever I do.
 <em>I empower teams and elevate the performance level of those around me</em>. I'm enthusiastic and goal-driven, with over 10 years of experience in IT.</p>
