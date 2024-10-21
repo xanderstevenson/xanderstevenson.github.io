@@ -46,13 +46,12 @@
             background: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
             border-radius: 10px; /* Slightly rounded corners */
             padding: 10px;
-            margin: 20px auto;
             width: 200px; /* Fixed width for a more rectangular shape */
             box-sizing: border-box;
             position: fixed;
-            top: 60px;
-            left: 0;
-            right: 0;
+            top: 50%; /* Center vertically */
+            left: 50%; /* Center horizontally */
+            transform: translate(-50%, -50%); /* Exact center by shifting back 50% */
             z-index: 999;
             text-align: left;
         }
@@ -76,6 +75,7 @@
         .menu-open {
             display: flex !important;
         }
+
 
 
         /* Media query for smaller screens */
