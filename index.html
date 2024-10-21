@@ -6,107 +6,133 @@
     <style>
         body {
             background: #DDE9F0 url('https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/blue-moon-background.png') no-repeat center center fixed;
-            background-size: cover; /* Ensures the image covers the full screen */
+            background-size: cover;
             font-family: Arial, sans-serif;
             color: black;
-            background-blend-mode: overlay; /* Makes the image blend with the background color */
+            background-blend-mode: overlay;
         }
 
         hr {
-            border: 0; /* Remove default border */
-            height: 1px; /* Set height for the line */
-            background-color: #007bff; /* Color of the line */
-            margin: 20px 0; /* Margin around the line */
+            border: 0;
+            height: 1px;
+            background-color: #007bff;
+            margin: 20px 0;
         }
+
         p, li {
             font-size: 16px;
         }
+
         .underline {
             text-decoration: underline;
         }
-        /* New styling for the menu */
-.menu {
-    display: flex;
-    justify-content: center; /* Center items */
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
-    background: linear-gradient(to right, #A7C6ED, #E1F2FA); /* Softer gradient colors */
-    border-radius: 50px;
-    border: 1px solid gray;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    margin: 20px auto;
-    width: 100%; /* Full width */
-    max-width: 600px; /* Maximum width for larger screens */
-    box-sizing: border-box; /* Include padding in width */
-}
 
-.menu a {
-    padding: 10px 15px; /* Add some padding for clickable area */
-    text-decoration: none; /* Remove underline from links */
-    color: #444444; /* Text color */
-    margin: 5px; /* Space between links */
-    border-radius: 25px; /* Rounded corners for links */
-    transition: background 0.3s; /* Smooth background transition */
-    font-weight: bold; /* Make text bold */
-}
+        /* Menu and Hamburger styling */
+        .hamburger {
+            font-size: 30px;
+            cursor: pointer;
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 1000;
+            color: #444444;
+        }
 
-.menu a:hover {
-    background: rgba(255, 255, 255, 0.2); /* Lighten on hover */
-}
+        .menu {
+            display: none; /* Hidden initially */
+            justify-content: center;
+            flex-wrap: wrap;
+            background: linear-gradient(to right, #A7C6ED, #E1F2FA);
+            border-radius: 50px;
+            border: 1px solid gray;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            margin: 20px auto;
+            width: 100%;
+            max-width: 600px;
+            box-sizing: border-box;
+            position: fixed;
+            top: 60px; /* Push it down under the header */
+            left: 0;
+            right: 0;
+            z-index: 999;
+        }
 
-/* Media query for smaller screens */
-@media (max-width: 375px) {
-    .menu {
-        flex-direction: column; /* Stack items vertically */
-        width: 90%; /* 90% width on small screens */
-    }
-}
+        .menu a {
+            padding: 10px 15px;
+            text-decoration: none;
+            color: #444444;
+            margin: 5px;
+            border-radius: 25px;
+            transition: background 0.3s;
+            font-weight: bold;
+        }
+
+        .menu a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 375px) {
+            .menu {
+                flex-direction: column;
+                width: 90%;
+            }
+        }
 
         .container {
-            display: flex; /* Enable flexbox on the container */
-            justify-content: center; /* Center the box horizontally */
+            display: flex;
+            justify-content: center;
         }
-        
+
         .centered-box {
-            border: 1px solid gray; /* Border around the box */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
-            padding: 5px 10px; /* Padding around the text */
-            margin: 5px; /* Margin around the box */
-            background: linear-gradient(to right, #A7C6ED, #E1F2FA); /* Background gradient */
-            text-align: center; /* Centers text inside the box */
+            border: 1px solid gray;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 5px 10px;
+            margin: 5px;
+            background: linear-gradient(to right, #A7C6ED, #E1F2FA);
+            text-align: center;
             color: #444444;
         }
 
         img, iframe {
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust shadow properties as needed */
-            border-radius: 8px; /* Optional: adds rounded corners to the images */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
         }
 
         .bordered-box {
-            text-align: left; /* Change this if you want left alignment inside the box */
+            text-align: left;
             font-size: 12px;
-            display: inline-block;  /* Makes the div fit its content */
-            padding: 0px 10px;          /* Adds some space around the text */
-            margin: 5px auto;     /* Centers the box and adds some space around it */
-            width: auto;           /* Ensures the width is based on content */
-            background: linear-gradient(to right, #A7C6ED, #E1F2FA); /* Softer gradient colors */
+            display: inline-block;
+            padding: 0px 10px;
+            margin: 5px auto;
+            width: auto;
+            background: linear-gradient(to right, #A7C6ED, #E1F2FA);
             border-radius: 5px;
             border: 1px solid gray;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
-        
+        /* Toggle menu on click */
+        .menu-open {
+            display: flex !important;
+        }
+
     </style>
 </head>
+
 <body>
 
+<div class="hamburger" onclick="toggleMenu()">&#9776;</div> <!-- Hamburger Icon -->
+
 <div class="container">    
-<div class="centered-box">
-<h3 align="center">Portfolio of:</h3>
-<h1 align="center">Alexander Stevenson</h1>
-<h2 align="center">AI-Powered Software, Network, DevOps, and Data Center Engineer and Advocate</h2>
+    <div class="centered-box">
+        <h3 align="center">Portfolio of:</h3>
+        <h1 align="center">Alexander Stevenson</h1>
+        <h2 align="center">AI-Powered Software, Network, DevOps, and Data Center Engineer and Advocate</h2>
+    </div>
 </div>
-</div>
+
 <p align="center">
     <img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/AlexStevenson-portrait.PNG" width="125" alt="Alex Stevenson Portrait">
 </p>
@@ -126,19 +152,23 @@
 <em>I empower teams and elevate the performance level of those around me</em>. I'm enthusiastic and goal-driven, with over 10 years of experience in IT.</p>
 
 <hr>
-<h2 align="center" style="color: #444444">Menu</h2>
-<nav class="menu" align="center">
+<nav id="menu" class="menu" align="center">
     <a href="#ai">AI and ML</a>
     <a href="#datacenter">Data Center</a>
     <a href="#datascience">Data Science</a>
     <a href="#developeradvocacy">Developer Advocacy</a>
     <a href="#devops">DevOps</a>
     <a href="#python">Full-Stack Python</a>
-    
-</nav>    
+</nav>
 
 <hr>
 
+<script>
+    function toggleMenu() {
+        var menu = document.getElementById("menu");
+        menu.classList.toggle("menu-open");  // Toggle the visibility of the menu
+    }
+</script>
 <br>
     
 <h2 align="center" style="color: #444444"><strong>Areas of Expertise:</strong></h2>
