@@ -155,12 +155,12 @@
 
 <!-- The navigation menu that will be toggled -->
 <nav id="menu" class="menu" align="center">
-    <a href="#ai">AI and ML</a>
-    <a href="#datacenter">Data Center</a>
-    <a href="#datascience">Data Science</a>
-    <a href="#developeradvocacy">Developer Advocacy</a>
-    <a href="#devops">DevOps</a>
-    <a href="#python">Full-Stack Python</a>
+    <a href="#ai" onclick="hideMenu()">AI and ML</a>
+    <a href="#datacenter" onclick="hideMenu()">Data Center</a>
+    <a href="#datascience" onclick="hideMenu()">Data Science</a>
+    <a href="#developeradvocacy" onclick="hideMenu()">Developer Advocacy</a>
+    <a href="#devops" onclick="hideMenu()">DevOps</a>
+    <a href="#python" onclick="hideMenu()">Full-Stack Python</a>
 </nav>
 
 <hr>
@@ -169,6 +169,11 @@
     function toggleMenu() {
         var menu = document.getElementById("menu");
         menu.classList.toggle("menu-open");  // Toggle the visibility of the menu
+    }
+
+    function hideMenu() {
+        var menu = document.getElementById("menu");
+        menu.classList.remove("menu-open");  // Hide the menu after a link is clicked
     }
 </script>
 <br>
