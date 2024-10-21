@@ -156,7 +156,8 @@
 </p>
 
 <div style="text-align: center;">
-    <div class="bordered-box">
+    <button class="toggle-button" onclick="toggleContactInfo()">Show contact info</button>
+    <div class="bordered-box" id="contactInfo">
         <p style="font-size: 14px">
             Email: <a href="mailto:alexstev.dev@gmail.com">alexstev.dev@gmail.com</a><br>
             LinkedIn: <a href="https://www.linkedin.com/in/xanderstevenson" target="_blank">https://www.linkedin.com/in/xanderstevenson</a><br>
@@ -192,6 +193,19 @@
     function hideMenu() {
         var menu = document.getElementById("menu");
         menu.classList.remove("menu-open");  // Hide the menu after a link is clicked
+    }
+
+    function toggleContactInfo() {
+        var contactInfo = document.getElementById("contactInfo");
+        var button = document.querySelector(".toggle-button");
+    
+        if (contactInfo.style.display === "none" || contactInfo.style.display === "") {
+            contactInfo.style.display = "block"; // Show the box
+            button.textContent = "Hide contact info"; // Change button text
+        } else {
+            contactInfo.style.display = "none"; // Hide the box
+            button.textContent = "Show contact info"; // Change button text back
+        }
     }
 </script>
 <br>
