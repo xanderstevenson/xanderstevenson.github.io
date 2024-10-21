@@ -43,10 +43,10 @@
             display: none; /* Hidden initially */
             flex-direction: column; /* Stack items vertically */
             justify-content: center;
-            background: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+            background: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
             border-radius: 10px; /* Slightly rounded corners */
             padding: 10px;
-            width: 200px; /* Fixed width for a more rectangular shape */
+            width: 300px; /* Fixed width for a more rectangular shape */
             box-sizing: border-box;
             position: fixed;
             top: 50%; /* Center vertically */
@@ -56,7 +56,7 @@
             text-align: left;
         }
         
-        .menu a {
+        .menu a, p {
             display: block; /* Make each item take the full width */
             padding: 10px;
             text-decoration: none;
@@ -64,7 +64,7 @@
             margin: 5px 0; /* Add vertical space between items */
             border-radius: 5px;
             transition: background 0.3s;
-            font-weight: bold;
+            font-weight: 600;
         }
         
         .menu a:hover {
@@ -157,10 +157,10 @@
 <p align="center">Above all, <em>I strive to be professional, yet compassionate</em>, in whatever I do.
 <em>I empower teams and elevate the performance level of those around me</em>. I'm enthusiastic and goal-driven, with over 10 years of experience in IT.</p>
 
-<hr>
 
 <!-- The navigation menu that will be toggled -->
 <nav id="menu" class="menu" align="center">
+    <p>Sections:</p>
     <a href="#ai" onclick="hideMenu()">AI and ML</a>
     <a href="#datacenter" onclick="hideMenu()">Data Center</a>
     <a href="#datascience" onclick="hideMenu()">Data Science</a>
