@@ -38,39 +38,45 @@
             color: #444444;
         }
 
+        /* Updated Menu Styling */
         .menu {
             display: none; /* Hidden initially */
+            flex-direction: column; /* Stack items vertically */
             justify-content: center;
-            flex-wrap: wrap;
-            background: linear-gradient(to right, #A7C6ED, #E1F2FA);
-            border-radius: 50px;
-            border: 1px solid gray;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+            border-radius: 10px; /* Slightly rounded corners */
             padding: 10px;
             margin: 20px auto;
-            width: 100%;
-            max-width: 600px;
+            width: 200px; /* Fixed width for a more rectangular shape */
             box-sizing: border-box;
             position: fixed;
             top: 60px;
             left: 0;
             right: 0;
             z-index: 999;
+            text-align: left;
         }
-
+        
         .menu a {
-            padding: 10px 15px;
+            display: block; /* Make each item take the full width */
+            padding: 10px;
             text-decoration: none;
             color: #444444;
-            margin: 5px;
-            border-radius: 25px;
+            margin: 5px 0; /* Add vertical space between items */
+            border-radius: 5px;
             transition: background 0.3s;
             font-weight: bold;
         }
-
+        
         .menu a:hover {
-            background: rgba(255, 255, 255, 0.2);
+            background: rgba(0, 0, 0, 0.1); /* Slightly darker on hover */
         }
+        
+        /* Toggle menu on click */
+        .menu-open {
+            display: flex !important;
+        }
+
 
         /* Media query for smaller screens */
         @media (max-width: 375px) {
