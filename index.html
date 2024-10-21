@@ -21,7 +21,7 @@
 
         p, li {
             font-size: 16px;
-            font-weight: 500;;
+            font-weight: 400;
         }
 
         .underline {
@@ -123,7 +123,7 @@
         }
 
         .toggle-button {
-            background-color: #007bff;
+            background: linear-gradient(to right, #A7C6ED, #E1F2FA);
             color: white;
             padding: 10px 15px;
             border: none;
@@ -135,6 +135,10 @@
 
         .toggle-button:hover {
             background-color: #0056b3;
+        }
+
+        #contactInfo {
+            width: 300px;
         }
 
     </style>
@@ -174,8 +178,8 @@
 
 <!-- The navigation menu that will be toggled -->
 <nav id="menu" class="menu" align="center">
-    <p>Sections:</p>
-    <<hr>
+    <p>Sections</p>
+    <hr>
     <a href="#ai" onclick="hideMenu()">AI and ML</a>
     <a href="#datacenter" onclick="hideMenu()">Data Center</a>
     <a href="#datascience" onclick="hideMenu()">Data Science</a>
