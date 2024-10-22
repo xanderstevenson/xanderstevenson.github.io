@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio of Alexander Stevenson</title>
     <style>
         body {
             background: #DDE9F0 url('https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/blue-moon-background.png') no-repeat center center fixed;
@@ -30,9 +29,6 @@
         }
 
         /* Menu and Hamburger styling */
-
-
-        /* Menu and Hamburger styling */
         .hamburger {
             font-size: 30px;
             cursor: pointer;
@@ -42,34 +38,27 @@
             z-index: 1000;
             color: #444444;
         }
-        
+
         /* Updated Menu Styling */
         .menu {
             display: none; /* Hidden initially */
             flex-direction: column; /* Stack items vertically */
             justify-content: center;
-            align-items: center; /* Center items horizontally */
-            background: linear-gradient(to right, #A7C6ED, #B3D6E6); /* Gradient background */
+            background: linear-gradient(to right, #A7C6ED, #B3D6E6);
+            /* background: rgba(255, 255, 255, 0.8);  Semi-transparent white background */
             border-radius: 10px; /* Slightly rounded corners */
-            padding: 20px; /* Adjusted padding for better spacing */
+            padding: 10px;
             width: 300px; /* Fixed width for a more rectangular shape */
             box-sizing: border-box;
-            position: fixed; /* Fixed position to the viewport */
+            position: fixed;
             top: 50%; /* Center vertically */
             left: 50%; /* Center horizontally */
-            transform: translate(-50%, -50%); /* Center it by offsetting */
-            z-index: 999; /* Ensure it's above other content */
-            text-align: center; /* Center text */
+            transform: translate(-50%, -50%); /* Exact center by shifting back 50% */
+            z-index: 999;
+            text-align: left;
         }
         
-        /* Adding the body blur effect */
-        body.menu-blur {
-            filter: blur(5px); /* Adjust the blur amount as needed */
-            transition: filter 0.3s ease; /* Smooth transition for the blur effect */
-        }
-        
-        .menu a,
-        p {
+        .menu a, p {
             display: block; /* Make each item take the full width */
             padding: 10px;
             text-decoration: none;
@@ -78,6 +67,7 @@
             border-radius: 5px;
             transition: background 0.3s;
             font-weight: 600;
+            text-align: center
         }
         
         .menu a:hover {
@@ -86,26 +76,18 @@
         
         /* Toggle menu on click */
         .menu-open {
-            display: flex !important; /* Use flexbox to show menu */
+            display: flex !important;
         }
-        
+
+
+
         /* Media query for smaller screens */
-        @media (max-width: 768px) {
-            .menu {
-                width: 90%; /* Full width on smaller screens */
-                max-width: 300px; /* Cap the width to avoid overflow */
-            }
-        }
-        
-        /* Further adjustments for very small screens */
         @media (max-width: 375px) {
             .menu {
-                padding: 10px; /* Less padding on very small screens */
-                font-size: 14px; /* Smaller font size for readability */
+                flex-direction: column;
+                width: 90%;
             }
         }
-
-
 
         .container {
             display: flex;
@@ -236,29 +218,15 @@
 <hr>
 
 <script>
-    
     function toggleMenu() {
         var menu = document.getElementById("menu");
-        var body = document.body; // Get the body element
         menu.classList.toggle("menu-open");  // Toggle the visibility of the menu
-        
-        // Toggle the blur effect on the body
-        if (menu.classList.contains("menu-open")) {
-            body.classList.add("menu-blur");
-        } else {
-            body.classList.remove("menu-blur");
-        }
     }
-    
+
     function hideMenu() {
         var menu = document.getElementById("menu");
-        var body = document.body; // Get the body element
         menu.classList.remove("menu-open");  // Hide the menu after a link is clicked
-        body.classList.remove("menu-blur");  // Remove the blur effect
     }
-    
-
-
 
     function toggleContactInfo() {
         var contactInfo = document.getElementById("contactInfo");
