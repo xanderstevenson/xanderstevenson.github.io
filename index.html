@@ -142,31 +142,27 @@
             width: 390px;
         }
 
-        #scrollToTopBtn {
+        .back-to-top {
             position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #333;
-            color: white;
-            font-size: 24px;
-            padding: 10px 15px;
-            border-radius: 50%;
+            bottom: 20px; /* Adjust this value for vertical position */
+            right: 20px; /* Adjust this value for horizontal position */
+            background-color: #007bff; /* Button color */
+            color: white; /* Text color */
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 24px; /* Font size for the arrow */
+            text-align: center;
+            text-decoration: none;
             cursor: pointer;
-            display: none; /* Initially hidden */
-            z-index: 1000; /* Make sure it's on top */
-            opacity: 0.7;
-            transition: opacity 0.3s, background-color 0.3s;
+            display: none; /* Hide initially */
+            z-index: 1000; /* Ensure it appears above other content */
         }
         
-        #scrollToTopBtn:hover {
-            background-color: #555;
-            opacity: 1; /* Increase visibility on hover */
+        .back-to-top:hover {
+            background-color: #0056b3; /* Darker blue on hover */
         }
-        
-        /* Make the button more visible after scrolling down */
-        .show {
-            display: block !important;
-        }
+
                 
 
     </style>
@@ -175,17 +171,11 @@
 <body>
 
 <div class="hamburger" onclick="toggleMenu()">&#9776;</div> <!-- Hamburger Icon -->
-<div style="height: 2000px;">
-    <!-- Long content -->
-    Scroll down to see the "up arrow" button.
-</div>
 
-<!-- Scroll to Top button -->
-<div id="scrollToTopBtn">
-    &#x25B2; <!-- Up arrow icon -->
-</div>
-    
-<div class="container" id="top">    
+<a href="#top" class="back-to-top" id="backToTop">
+    ↑
+</a>    
+<div class="container">    
     <div class="centered-box">
         <h3 align="center">Portfolio of:</h3>
         <h1 align="center">Alexander Stevenson</h1>
@@ -251,25 +241,25 @@
         }
     }
 
-    // Get the button
-    const scrollToTopBtn = document.getElementById('scrollToTopBtn');
-    
-    // Show or hide the button based on scroll position
+    // Show the button when scrolling down
     window.onscroll = function() {
-        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-            scrollToTopBtn.classList.add('show');
+        const backToTopButton = document.getElementById("backToTop");
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            backToTopButton.style.display = "block";
         } else {
-            scrollToTopBtn.classList.remove('show');
+            backToTopButton.style.display = "none";
         }
     };
     
-    // Smooth scroll to the top when the button is clicked
-    scrollToTopBtn.onclick = function() {
+    // Smooth scroll to top
+    document.getElementById("backToTop").onclick = function(event) {
+        event.preventDefault(); // Prevent default anchor click behavior
         window.scrollTo({
             top: 0,
-            behavior: 'smooth'
+            behavior: 'smooth' // Smooth scroll
         });
     };
+
 
     
 </script>
