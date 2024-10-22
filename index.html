@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +20,8 @@
             margin: 20px 0;
         }
 
-        p, li {
+        p,
+        li {
             font-size: 16px;
             font-weight: normal;
         }
@@ -41,39 +43,50 @@
 
         /* Updated Menu Styling */
         .menu {
-            display: none; /* Hidden initially */
-            flex-direction: column; /* Stack items vertically */
+            display: none;
+            /* Hidden initially */
+            flex-direction: column;
+            /* Stack items vertically */
             justify-content: center;
             background: linear-gradient(to right, #A7C6ED, #B3D6E6);
             /* background: rgba(255, 255, 255, 0.8);  Semi-transparent white background */
-            border-radius: 10px; /* Slightly rounded corners */
+            border-radius: 10px;
+            /* Slightly rounded corners */
             padding: 10px;
-            width: 300px; /* Fixed width for a more rectangular shape */
+            width: 300px;
+            /* Fixed width for a more rectangular shape */
             box-sizing: border-box;
             position: fixed;
-            top: 50%; /* Center vertically */
-            left: 50%; /* Center horizontally */
-            transform: translate(-50%, -50%); /* Exact center by shifting back 50% */
+            top: 50%;
+            /* Center vertically */
+            left: 50%;
+            /* Center horizontally */
+            transform: translate(-50%, -50%);
+            /* Exact center by shifting back 50% */
             z-index: 999;
             text-align: left;
         }
-        
-        .menu a, p {
-            display: block; /* Make each item take the full width */
+
+        .menu a,
+        p {
+            display: block;
+            /* Make each item take the full width */
             padding: 10px;
             text-decoration: none;
             color: #444444;
-            margin: 5px 0; /* Add vertical space between items */
+            margin: 5px 0;
+            /* Add vertical space between items */
             border-radius: 5px;
             transition: background 0.3s;
             font-weight: 600;
             text-align: center
         }
-        
+
         .menu a:hover {
-            background: rgba(0, 0, 0, 0.1); /* Slightly darker on hover */
+            background: rgba(0, 0, 0, 0.1);
+            /* Slightly darker on hover */
         }
-        
+
         /* Toggle menu on click */
         .menu-open {
             display: flex !important;
@@ -104,7 +117,8 @@
             color: #444444;
         }
 
-        img, iframe {
+        img,
+        iframe {
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             border-radius: 8px;
         }
@@ -120,7 +134,8 @@
             border-radius: 5px;
             border: 1px solid gray;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            display: none; /* Hidden initially */
+            display: none;
+            /* Hidden initially */
         }
 
         .toggle-button {
@@ -144,478 +159,611 @@
 
         .back-to-top {
             position: fixed;
-            bottom: 20px; /* Adjust this value for vertical position */
-            right: 20px; /* Adjust this value for horizontal position */
+            bottom: 20px;
+            /* Adjust this value for vertical position */
+            right: 20px;
+            /* Adjust this value for horizontal position */
             background: linear-gradient(to right, #A7C6ED, #B3D6E6);
-            color: white; /* Text color */
+            color: white;
+            /* Text color */
             border: none;
             border-radius: 5px;
             padding: 10px;
-            font-size: 24px; /* Font size for the arrow */
+            font-size: 24px;
+            /* Font size for the arrow */
             text-align: center;
             text-decoration: none;
             cursor: pointer;
-            display: none; /* Hide initially */
-            z-index: 1000; /* Ensure it appears above other content */
+            display: none;
+            /* Hide initially */
+            z-index: 1000;
+            /* Ensure it appears above other content */
         }
-        
+
         .back-to-top:hover {
-            background-color: #0056b3; /* Darker blue on hover */
+            background-color: #0056b3;
+            /* Darker blue on hover */
         }
-
-        body.menu-blur {
-            filter: blur(5px); /* Adjust the blur amount as needed */
-            transition: filter 0.3s ease; /* Smooth transition for the blur effect */
-        }
-
-     
-
     </style>
 </head>
 
 <body>
 
-<div class="hamburger" onclick="toggleMenu()">&#9776;</div> <!-- Hamburger Icon -->
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div> <!-- Hamburger Icon -->
 
-<a href="#top" class="back-to-top" id="backToTop">
-    ↑
-</a>    
-<div class="container" id="top">    
-    <div class="centered-box">
-        <h3 align="center">Portfolio of:</h3>
-        <h1 align="center">Alexander Stevenson</h1>
-        <h2 align="center">AI-Powered Software, Network, DevOps, and Data Center Engineer and Advocate</h2>
+    <a href="#top" class="back-to-top" id="backToTop">
+        ↑
+    </a>
+    <div class="container" id="top">
+        <div class="centered-box">
+            <h3 align="center">Portfolio of:</h3>
+            <h1 align="center">Alexander Stevenson</h1>
+            <h2 align="center">AI-Powered Software, Network, DevOps, and Data Center Engineer and Advocate</h2>
+        </div>
     </div>
-</div>
 
-<p align="center">
-    <img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/AlexStevenson-portrait.PNG" width="125" alt="Alex Stevenson Portrait">
-</p>
+    <p align="center">
+        <img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/AlexStevenson-portrait.PNG"
+            width="125" alt="Alex Stevenson Portrait">
+    </p>
 
-<div style="text-align: center;">
-    <button class="toggle-button" onclick="toggleContactInfo()">Contact Info and Resume / CV</button>
-    <div class="bordered-box" id="contactInfo">
-        <p style="font-size: 14px">
-            Email: <a href="mailto:alexstev.dev@gmail.com">alexstev.dev@gmail.com</a><br>
-            LinkedIn: <a href="https://www.linkedin.com/in/xanderstevenson" target="_blank">https://www.linkedin.com/in/xanderstevenson</a><br>
-            GitHub: <a href="https://github.com/xanderstevenson" target="_blank">https://github.com/xanderstevenson</a><br>
-            View My <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/Alex-Stevenson-Resume.docx" target="_blank">Resume (Word Document)</a>
-        </p>
+    <div style="text-align: center;">
+        <button class="toggle-button" onclick="toggleContactInfo()">Contact Info and Resume / CV</button>
+        <div class="bordered-box" id="contactInfo">
+            <p style="font-size: 14px">
+                Email: <a href="mailto:alexstev.dev@gmail.com">alexstev.dev@gmail.com</a><br>
+                LinkedIn: <a href="https://www.linkedin.com/in/xanderstevenson"
+                    target="_blank">https://www.linkedin.com/in/xanderstevenson</a><br>
+                GitHub: <a href="https://github.com/xanderstevenson"
+                    target="_blank">https://github.com/xanderstevenson</a><br>
+                View My <a
+                    href="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/Alex-Stevenson-Resume.docx"
+                    target="_blank">Resume (Word Document)</a>
+            </p>
+        </div>
     </div>
-</div>
 
-<p align="center">Above all, <em>I strive to be professional, yet compassionate</em>, in whatever I do.
-<em>I empower teams and elevate the performance level of those around me</em>. I'm enthusiastic and goal-driven, with over 10 years of experience in IT.</p>
-
-
-<!-- The navigation menu that will be toggled -->
-<nav id="menu" class="menu" align="center">
-    <h3 style="text-align: center;">Portfolio Sections</h3>
-    <hr style="margin: 5px 0;border: 0;height: 1px;background-color: #007bff;">
-    <a href="#ai" onclick="hideMenu()">AI and ML</a>
-    <a href="#datacenter" onclick="hideMenu()">Data Center</a>
-    <a href="#datascience" onclick="hideMenu()">Data Science</a>
-    <a href="#developeradvocacy" onclick="hideMenu()">Developer Advocacy</a>
-    <a href="#devops" onclick="hideMenu()">DevOps</a>
-    <a href="#python" onclick="hideMenu()">Full-Stack Python</a>
-</nav>
-
-<hr>
-
-<script>
-    
-    function toggleMenu() {
-        var menu = document.getElementById("menu");
-        var body = document.body; // Get the body element
-        menu.classList.toggle("menu-open");  // Toggle the visibility of the menu
-    
-        // Toggle the blur effect on the body
-        if (menu.classList.contains("menu-open")) {
-            body.classList.add("menu-blur"); // Apply blur when the menu is open
-        } else {
-            body.classList.remove("menu-blur"); // Remove blur when the menu is closed
-        }
-    }
-
-    function hideMenu() {
-        var menu = document.getElementById("menu");
-        var body = document.body; // Get the body element
-        menu.classList.remove("menu-open");  // Hide the menu after a link is clicked
-        body.classList.remove("menu-blur");  // Remove the blur effect
-    }
+    <p align="center">Above all, <em>I strive to be professional, yet compassionate</em>, in whatever I do.
+        <em>I empower teams and elevate the performance level of those around me</em>. I'm enthusiastic and goal-driven,
+        with over 10 years of experience in IT.
+    </p>
 
 
-    function toggleContactInfo() {
-        var contactInfo = document.getElementById("contactInfo");
-        var button = document.querySelector(".toggle-button");
-    
-        if (contactInfo.style.display === "none" || contactInfo.style.display === "") {
-            contactInfo.style.display = "block"; // Show the box
-            button.textContent = "Hide Contact Info and Resume / CV"; // Change button text
-        } else {
-            contactInfo.style.display = "none"; // Hide the box
-            button.textContent = "Contact Info and Resume / CV"; // Change button text back
-        }
-    }
+    <!-- The navigation menu that will be toggled -->
+    <nav id="menu" class="menu" align="center">
+        <h3 style="text-align: center;">Portfolio Sections</h3>
+        <hr style="margin: 5px 0;border: 0;height: 1px;background-color: #007bff;">
+        <a href="#ai" onclick="hideMenu()">AI and ML</a>
+        <a href="#datacenter" onclick="hideMenu()">Data Center</a>
+        <a href="#datascience" onclick="hideMenu()">Data Science</a>
+        <a href="#developeradvocacy" onclick="hideMenu()">Developer Advocacy</a>
+        <a href="#devops" onclick="hideMenu()">DevOps</a>
+        <a href="#python" onclick="hideMenu()">Full-Stack Python</a>
+    </nav>
 
-    // Show the button when scrolling down
-    window.onscroll = function() {
-        const backToTopButton = document.getElementById("backToTop");
-        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-            backToTopButton.style.display = "block";
-        } else {
-            backToTopButton.style.display = "none";
-        }
-    };
-    
-    // Smooth scroll to top
-    document.getElementById("backToTop").onclick = function(event) {
-        event.preventDefault(); // Prevent default anchor click behavior
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth' // Smooth scroll
-        });
-    };
-
-
-    
-</script>
-<br>
-    
-<h2 align="center" style="color: #444444"><strong>Areas of Expertise:</strong></h2>
-    
-    <br>
-    
-<ul>
-<li><strong>Technical Leadership:</strong> Proven track record in IT leadership roles, driving projects and mentoring diversteams.</li><br>
-<li><strong>Software Development:</strong> Skilled in Python, JavaScript, Java, and other programming languages, with a focus on full-stack development, APIs, and automation.</li><br>
-<li><strong>DevOps Practices:</strong> Extensive experience creating and managing pipelines with tools such as Ansible, Terraform, and Kubernetes, ensuring seamless integration and deployment.</li><br>
-<li><strong>AI & ML:</strong> Skilled in AI and Machine Learning fundamentals, including data preparation and processing, normalization, algorithms, as well as model selection, training, and evaluation.</li><br>
-<li><strong>Data Center Management:</strong> Expertise in data center, server, networking, virtualization, and monitoring technology solutions and operations.</li><br>
-<li><strong>Community Engagement:</strong> Experienced in technical writing, public speaking, and fostering community through educational initiatives.</li>
-<br>
-<li style="list-style-type: none;">...and in case you haven't noticed yet, I'm still pretty good with Front-End Web Development ; )</li>    
-</ul>
- 
-<br>
-<br>
-
-<hr>
-    
-<div id="ai"> 
-    <h2 align="center">Artificial Intelligence and Machine Learning</h2>
     <hr>
 
-    <p>I've made it a priority to study AI and ML and apply it as needed to my work and personal projects. I've shared this knowledge and experience with others, so they too can take their AI/ML skills to the next level.</p>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            menu.classList.toggle("menu-open");  // Toggle the visibility of the menu
+        }
+
+        function hideMenu() {
+            var menu = document.getElementById("menu");
+            menu.classList.remove("menu-open");  // Hide the menu after a link is clicked
+        }
+
+        function toggleContactInfo() {
+            var contactInfo = document.getElementById("contactInfo");
+            var button = document.querySelector(".toggle-button");
+
+            if (contactInfo.style.display === "none" || contactInfo.style.display === "") {
+                contactInfo.style.display = "block"; // Show the box
+                button.textContent = "Hide Contact Info and Resume / CV"; // Change button text
+            } else {
+                contactInfo.style.display = "none"; // Hide the box
+                button.textContent = "Contact Info and Resume / CV"; // Change button text back
+            }
+        }
+
+        // Show the button when scrolling down
+        window.onscroll = function () {
+            const backToTopButton = document.getElementById("backToTop");
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        };
+
+        // Smooth scroll to top
+        document.getElementById("backToTop").onclick = function (event) {
+            event.preventDefault(); // Prevent default anchor click behavior
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Smooth scroll
+            });
+        };
+
+
+
+    </script>
+    <br>
+
+    <h2 align="center" style="color: #444444"><strong>Areas of Expertise:</strong></h2>
 
     <br>
 
-    <h3>I create AI/ML learning labs</h3>
     <ul>
-        <li>
-            <a href="https://developer.cisco.com/learning/labs/ml-for-network-engineers-part-1/" target="_blank">Machine Learning for Network Engineers: Part 1</a> - wildly successful foundational lab and the first of its kind at Cisco. This Learning Lab introduces the foundational concepts of machine learning in a format suitable for network engineers and others who are new to the field of artificial intelligence and who are interested in experimenting and learning how to apply ML techniques to improve their performance.
-        </li>
+        <li><strong>Technical Leadership:</strong> Proven track record in IT leadership roles, driving projects and
+            mentoring diversteams.</li><br>
+        <li><strong>Software Development:</strong> Skilled in Python, JavaScript, Java, and other programming languages,
+            with a focus on full-stack development, APIs, and automation.</li><br>
+        <li><strong>DevOps Practices:</strong> Extensive experience creating and managing pipelines with tools such as
+            Ansible, Terraform, and Kubernetes, ensuring seamless integration and deployment.</li><br>
+        <li><strong>AI & ML:</strong> Skilled in AI and Machine Learning fundamentals, including data preparation and
+            processing, normalization, algorithms, as well as model selection, training, and evaluation.</li><br>
+        <li><strong>Data Center Management:</strong> Expertise in data center, server, networking, virtualization, and
+            monitoring technology solutions and operations.</li><br>
+        <li><strong>Community Engagement:</strong> Experienced in technical writing, public speaking, and fostering
+            community through educational initiatives.</li>
+        <br>
+        <li style="list-style-type: none;">...and in case you haven't noticed yet, I'm still pretty good with Front-End
+            Web Development ; )</li>
     </ul>
-    <p align="center">
-       <a href="https://developer.cisco.com/learning/labs/ml-for-network-engineers-part-1/" target="_blank"><img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/MLFNEP1.png" width="410" alt="Machine Learning for Network Engineers"></a>
-    </p>
 
     <br>
-
-    <h3>I produce AI/ML videos</h3>
-    <ul>
-        <li>
-            <a href="https://youtu.be/jyvmkXj2o-8" target="_blank">Transforming DevOps with AI and ML: Innovations and Strategies</a> - Part of the DevOps Shop series on YouTube. In this video, we explore the transformative impact of integrating Artificial Intelligence and Machine Learning with DevOps. 
-        </li>
-    </ul>
-    <p align="center">  
-        <iframe width="410" height="231" src="https://www.youtube.com/embed/jyvmkXj2o-8?si=FVjDz7nsn7oZrgoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
-    </p>
-
     <br>
 
-    <h3>I've created and run an AI/ML-related Bot called the 'AI Daily Dose'</h3>
+    <hr>
+
+    <div id="ai">
+        <h2 align="center">Artificial Intelligence and Machine Learning</h2>
+        <hr>
+
+        <p>I've made it a priority to study AI and ML and apply it as needed to my work and personal projects. I've
+            shared this knowledge and experience with others, so they too can take their AI/ML skills to the next level.
+        </p>
+
+        <br>
+
+        <h3>I create AI/ML learning labs</h3>
+        <ul>
+            <li>
+                <a href="https://developer.cisco.com/learning/labs/ml-for-network-engineers-part-1/"
+                    target="_blank">Machine Learning for Network Engineers: Part 1</a> - wildly successful foundational
+                lab and the first of its kind at Cisco. This Learning Lab introduces the foundational concepts of
+                machine learning in a format suitable for network engineers and others who are new to the field of
+                artificial intelligence and who are interested in experimenting and learning how to apply ML techniques
+                to improve their performance.
+            </li>
+        </ul>
+        <p align="center">
+            <a href="https://developer.cisco.com/learning/labs/ml-for-network-engineers-part-1/" target="_blank"><img
+                    src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/MLFNEP1.png"
+                    width="410" alt="Machine Learning for Network Engineers"></a>
+        </p>
+
+        <br>
+
+        <h3>I produce AI/ML videos</h3>
+        <ul>
+            <li>
+                <a href="https://youtu.be/jyvmkXj2o-8" target="_blank">Transforming DevOps with AI and ML: Innovations
+                    and Strategies</a> - Part of the DevOps Shop series on YouTube. In this video, we explore the
+                transformative impact of integrating Artificial Intelligence and Machine Learning with DevOps.
+            </li>
+        </ul>
+        <p align="center">
+            <iframe width="410" height="231" src="https://www.youtube.com/embed/jyvmkXj2o-8?si=FVjDz7nsn7oZrgoc"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </p>
+
+        <br>
+
+        <h3>I've created and run an AI/ML-related Bot called the 'AI Daily Dose'</h3>
         <li>Written in Python, this bot sends a random AI/ML-related word daily to a Webex space.</li>
         <li>Over 250 active members</li>
         <li>Great for learning, collaboration, polls, and notifications</li>
         <li>Anyone can join via <a href="https://eurl.io/#vPEHI7XF1" target="_blank">https://eurl.io/#vPEHI7XF1</a></li>
-        <li>The GitHub repo with the code for the AI Daily Dose can be found at <a href="https://github.com/xanderstevenson/ai-wotd" target="_blank">https://github.com/xanderstevenson/ai-wotd</a></li>
-    <p align="center">
-       <img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/ai-wotd-1.png" height="300" alt="the AI Daily Dose">
-       <img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/ai-wotd-3.png" height="300" alt="the AI Daily Dose">
-       <img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/ai-wotd-2.png" height="300" alt="the AI Daily Dose">
-    </p>
-    
+        <li>The GitHub repo with the code for the AI Daily Dose can be found at <a
+                href="https://github.com/xanderstevenson/ai-wotd"
+                target="_blank">https://github.com/xanderstevenson/ai-wotd</a></li>
+        <p align="center">
+            <img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/ai-wotd-1.png"
+                height="300" alt="the AI Daily Dose">
+            <img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/ai-wotd-3.png"
+                height="300" alt="the AI Daily Dose">
+            <img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/ai-wotd-2.png"
+                height="300" alt="the AI Daily Dose">
+        </p>
+
+        <br>
+
+        <h3>I write AI/ML articles and blogs</h3>
+        <ul>
+            <li><a href="https://community.cisco.com/t5/edge-data-management/artificial-intelligence-ai-at-the-edge/td-p/4674085"
+                    target="_blank">Artificial Intelligence at the Edge</a></li>
+            <li><a href="https://community.cisco.com/t5/devnet-general-blogs/exploring-cisco-s-machine-learning-enhanced-solutions/ba-p/5145655"
+                    target="_blank">Exploring Cisco's Machine Learning-Enhanced Solutions (77 replies!)</a></li>
+            <li><a href="https://community.cisco.com/t5/devnet-general-knowledge-base/ml-algorithm-vs-ml-model/ta-p/5120750"
+                    target="_blank">ML Algorithm vs. ML Model</a></li>
+            <li><a href="https://community.cisco.com/t5/devnet-general-blogs/align-ai-capabilities-with-intentions-via-the-cisco-ai-readiness/ba-p/5124924"
+                    target="_blank">Align AI Capabilities with Intentions via the Cisco AI Readiness Index</a></li>
+        </ul>
+
+        <br>
+
+        <h3>I've been a member of Artificial Intelligence groups</h3>
+        <ul>
+            <li><strong>Design Insights Group (DIG)</strong> - at Cisco. BridgeIT is DevNet's internal AI for employee
+                use and I helped oversee its development and progress.</li>
+            <li><strong>DevNet AI Tiger Team</strong> - at Cisco DevNet. This team is the cutting-edge leadership group
+                guiding decision-making in all things AI/ML related.</li>
+        </ul>
+    </div>
+
     <br>
-
-    <h3>I write AI/ML articles and blogs</h3>
-    <ul>
-        <li><a href="https://community.cisco.com/t5/edge-data-management/artificial-intelligence-ai-at-the-edge/td-p/4674085" target="_blank">Artificial Intelligence at the Edge</a></li>
-        <li><a href="https://community.cisco.com/t5/devnet-general-blogs/exploring-cisco-s-machine-learning-enhanced-solutions/ba-p/5145655" target="_blank">Exploring Cisco's Machine Learning-Enhanced Solutions (77 replies!)</a></li>
-        <li><a href="https://community.cisco.com/t5/devnet-general-knowledge-base/ml-algorithm-vs-ml-model/ta-p/5120750" target="_blank">ML Algorithm vs. ML Model</a></li>
-        <li><a href="https://community.cisco.com/t5/devnet-general-blogs/align-ai-capabilities-with-intentions-via-the-cisco-ai-readiness/ba-p/5124924" target="_blank">Align AI Capabilities with Intentions via the Cisco AI Readiness Index</a></li>
-    </ul>
-
-    <br>
-
-    <h3>I've been a member of Artificial Intelligence groups</h3>
-    <ul>
-        <li><strong>Design Insights Group (DIG)</strong> - at Cisco. BridgeIT is DevNet's internal AI for employee use and I helped oversee its development and progress.</li>
-        <li><strong>DevNet AI Tiger Team</strong> - at Cisco DevNet. This team is the cutting-edge leadership group guiding decision-making in all things AI/ML related.</li>
-    </ul>
-</div> 
-
-<br>
 
 
     <h3>I'm AI certified!</h3>
-    
+
     <ul>
-        <li><strong>Aritificial Intelligence on Cloud</strong> - certification from Great Learning. View <a href="https://www.mygreatlearning.com/certificate/LUXMBJPD" target="_blank">my certificate!</a></li>
+        <li><strong>Aritificial Intelligence on Cloud</strong> - certification from Great Learning. View <a
+                href="https://www.mygreatlearning.com/certificate/LUXMBJPD" target="_blank">my certificate!</a></li>
         <p align="center">
-    <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/ai/AI-on-Cloud.png" target="_blank"><img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/ai/AI-on-Cloud.png" width="275"></a>
-    </p>
-    
-    </ul>
-</div> 
-
-
-
-<br>
-<br>
-
-
-<hr>
-<div id="datacenter"> 
-<h2 align="center">Data Center</h2>
-<hr>
-
-    <h3>I create Data Center learning labs</h3>
-    <ul>
-        <li>
-            <a href="https://developer.cisco.com/learning/labs/dne-dci-nxos-device-level-apis/" target="_blank">Automating Network Tasks with Cisco NX-OS Device-Level APIs</a> - Very popular lab, featured at Cisco Live!
-        </li>
-    </ul>
-    <p align="center">
-       <a href="https://developer.cisco.com/learning/labs/dne-dci-nxos-device-level-apis" target="_blank"><img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/NX-OS-lab.png" width="410" alt="NX-OS Lab"></a>
-    </p>
-
-    <br>
-
-    <h3>I Co-host Data Center webinars</h3>
-    <ul>
-        <li>
-            <a href="https://www.youtube.com/watch?v=eNcAxdC_ens" target="_blank">Empowering Data Center Efficiency with Automation Strategies for Nexus and ACI</a> - Webinar held in conjunction with PyNet Labs.
-        </li>
-    </ul>
-    <p align="center">
-       <a href="https://www.youtube.com/watch?v=eNcAxdC_ens" target="_blank"><img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/data-center/PyNet%20Labs%20-%20small.jpeg" width="410" alt="PyNet Labs Webinar"></a>
-    </p>
-
-    <br>
-
-    <h3>I write Data Center articles and blogs</h3>
-    <ul>
-        <li><a href="https://community.cisco.com/t5/devnet-general-knowledge-base/data-center-cheat-sheet/ta-p/4407714" target="_blank">Data Center Cheat Sheet</a></li>
-        <li><a href="https://community.cisco.com/t5/data-center-blogs/data-center-frontiers-greenfield-vs-brownfield-in-cisco/ba-p/5104378" target="_blank">Data Center Frontiers: Greenfield vs. Brownfield in Cisco Deployments</a></li>
-        <li><a href="https://community.cisco.com/t5/data-center-knowledge-base/understanding-port-channel-and-virtual-port-channel-vpc/ta-p/5138118" target="_blank">Understanding Port Channel and Virtual Port Channel (vPC)</a></li>
+            <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/ai/AI-on-Cloud.png"
+                target="_blank"><img
+                    src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/ai/AI-on-Cloud.png"
+                    width="275"></a>
+        </p>
 
     </ul>
-
-    
-
-<br>
-<br>
+    </div>
 
 
 
-
-<hr>
-<div id="datascience"> 
-<h2 align="center">Data Science</h2>
-<hr>    
-
-
-    <h3>I Plan, Prepare, Transform, Organize, Interpret, Analyze and Gain Insights from Data</h3>
-    
-<ul>
-    <li>
-        I'm experienced in the handling of many types of data, including JSON, XML, RESTCONF, NETCONF, SOAP, CSV, YAML, YANG, gRPC, and more...
-    </li>
-    <li>
-       I've worked with an assortment of Data Science tools and libraries, including Pandas, NumPy, Dask, Scikit-learn, TensorFlow, PyTorch, XGBoost, Matplotlib, Seaborn, Plotly, Bokeh, Jupyter Notebooks, and more...
-    </li>
-    <li>
-        I've received official training and certification in Data Science:
-    </li>
-    <p align="center">
-    <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/certifications/devops/IntroductionToDataEngineering.png" target="_blank"><img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/certifications/devops/IntroductionToDataEngineering.png" width="275"></a>
-    <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/certifications/devops/Software%20Eng.%20for%20Data%20Scientists.png" target="_blank"><img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/certifications/devops/Software%20Eng.%20for%20Data%20Scientists.png" width="275"></a>
-    <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/certifications/devops/StreamLinedDataIngestionWithPandas.png" target="_blank"><img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/certifications/devops/StreamLinedDataIngestionWithPandas.png" width="275"></a>
-    </p>
-    
-</ul>
-    
     <br>
     <br>
-    
 
 
-<hr>
-<div id="developeradvocacy"> 
-<h2 align="center">Developer Advocacy</h2>
-<hr>    
+    <hr>
+    <div id="datacenter">
+        <h2 align="center">Data Center</h2>
+        <hr>
 
+        <h3>I create Data Center learning labs</h3>
+        <ul>
+            <li>
+                <a href="https://developer.cisco.com/learning/labs/dne-dci-nxos-device-level-apis/"
+                    target="_blank">Automating Network Tasks with Cisco NX-OS Device-Level APIs</a> - Very popular lab,
+                featured at Cisco Live!
+            </li>
+        </ul>
+        <p align="center">
+            <a href="https://developer.cisco.com/learning/labs/dne-dci-nxos-device-level-apis" target="_blank"><img
+                    src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/NX-OS-lab.png"
+                    width="410" alt="NX-OS Lab"></a>
+        </p>
 
-    <h3>I Write Articles and Blogs</h3>
-    
-    <ul>
-    <li><a href="https://blogs.cisco.com/author/alexanderstevenson?dtid=osscdc000283" target="_blank">Cisco Blogs I've Authored</a></li>
-    <li><a href="https://community.cisco.com/t5/user/viewprofilepage/user-id/976325" target="_blank">My Profile and Articles on the Cisco Community</a></li>
-    <li>><a href="https://developer.cisco.com/codeexchange/search/?q=xanderstevenson" target="_blank">View my Code on Cisco Code Exchange</li>
-    </a>
-    </ul>
-        
-    <br>
+        <br>
 
+        <h3>I Co-host Data Center webinars</h3>
+        <ul>
+            <li>
+                <a href="https://www.youtube.com/watch?v=eNcAxdC_ens" target="_blank">Empowering Data Center Efficiency
+                    with Automation Strategies for Nexus and ACI</a> - Webinar held in conjunction with PyNet Labs.
+            </li>
+        </ul>
+        <p align="center">
+            <a href="https://www.youtube.com/watch?v=eNcAxdC_ens" target="_blank"><img
+                    src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/data-center/PyNet%20Labs%20-%20small.jpeg"
+                    width="410" alt="PyNet Labs Webinar"></a>
+        </p>
 
-    <h3>I Engage with the Community</h3>
-    <p>While at Cisco DevNet, I was consistently recognized as being the Most Active and having the Greatest Impact in the Community.</p>
-    <p align="center">
-        <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/community_engagement2.png" target="_blank"><img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/community_engagement2.png" width="410" alt="Cisco Badges"></a>
-    </p>  
-    <br>
-    
-    <h3>I Speak at Conferences</h3>
+        <br>
 
-    <p>I've presented many sessions at Cisco Lives in Las Vegas, Melbourne, and Amsterdam, as well as at Cisco Impact / GSX and the Western Academy Support and Training Center.
-    Sessions I've designed, prepared, and presented include: 
-    </p>
+        <h3>I write Data Center articles and blogs</h3>
+        <ul>
+            <li><a href="https://community.cisco.com/t5/devnet-general-knowledge-base/data-center-cheat-sheet/ta-p/4407714"
+                    target="_blank">Data Center Cheat Sheet</a></li>
+            <li><a href="https://community.cisco.com/t5/data-center-blogs/data-center-frontiers-greenfield-vs-brownfield-in-cisco/ba-p/5104378"
+                    target="_blank">Data Center Frontiers: Greenfield vs. Brownfield in Cisco Deployments</a></li>
+            <li><a href="https://community.cisco.com/t5/data-center-knowledge-base/understanding-port-channel-and-virtual-port-channel-vpc/ta-p/5138118"
+                    target="_blank">Understanding Port Channel and Virtual Port Channel (vPC)</a></li>
 
-    <ul>
-        <li>Automating Cisco Datacenter Technologies</li>
-        <li>Automating Network Tasks with Cisco NX-OS Device-Level APIs</li>
-        <li>DevOps Dashboards featuring DIY DevOps Dashboard</li>
-        <li>REST API Fundamentals</li> 
-        <li>Introduction to Python</li>  
-        <li>Intro to Ansible for Automation</li>  
-        <li>Intro to Git</li> 
-        <li>Intro to Terraform</li>
-    </ul>
-    <p align="center">
-        <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/Cisco-Badges.jpg" target="_blank"><img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/Cisco-Badges.jpg" width="410" alt="Cisco Badges"></a>
-    </p>  
-
-    <br>  
-
-
-
-<br>
-<br>
+        </ul>
 
 
 
-<hr>
-<div id="devops"> 
-<h2 align="center">DevOps</h2>
-<hr>
-
-
-<h3>I produced the DevOps Shop video series</h3>
-
-<p>The <a href="https://www.youtube.com/playlist?list=PL2k86RlAekM9ulG4xak-jmCvf1-Ot-biu" target="_blank">DevOps Shop</a> is a series of 18 videos on YouTube with over 10,000 views.</p>
-    
-<p align="center">
-<a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/DevOps-Shop_Collage.png" target="_blank"><img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/DevOps-Shop_Collage.png" width="410"></a><br>    
-<iframe width="410" height="231" src="https://www.youtube.com/embed/N2FCQeLUgUo?si=CY0d2z675jYFJQj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p>
-
-<br>    
-    
-<h3>My DevOps projects and repos</h3>
-<ul>
-    <li>
-        <strong><a href="https://github.com/xanderstevenson/diy-devops-dashboard" target="_blank">diy-devops-dashboard</a></strong> - I made this project as a way for those new to DevOps to get started with the basic technologies involved (GitHub, Docker, GitLab, Jenkins, Terraform, Elasticsearch). It provides the user with an all-in-one place to see their progress and to better understand how these different tools interact in the DevOps.
-    <p align="center">
-    <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/DIY-DevOps-Dashboard-diagram2.drawio.png" target="_blank"><img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/DIY-DevOps-Dashboard-diagram2.drawio.png" height="200"></a>
-    <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/DIY-DevOps-Dashboard.png" target="_blank"><img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/DIY-DevOps-Dashboard.png" height="200"></a>
-    </p>
-    </li>
-    <li>
-        <strong><a href="https://github.com/xanderstevenson/simple-netdevops-ci" target="_blank">simple-netdevops-ci></a></strong> - This is a simple and free CI pipeline that receives a webhook from GitHub whenever anything changes in the GitHub repo. The webhook triggers a build action in Jenkins that runs a shell script, clones the GitHub repo, and creates a virtual environment to run pytest. Currently, the repo I am cloning from is based on Ansible, so my tests are for Ansible playbooks and inventory files, but those can be adapted to test whatever you want. If a pytest fails, a message with details is sent to a Webex space, and the build fails as well.
-    </li>
-    <p align="center">
-    <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/simple-netdevops-ci-1.png" target="_blank"><img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/simple-netdevops-ci-1.png" height="200"></a>
-    <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/simple-netdevops-ci-2.png" target="_blank"><img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/simple-netdevops-ci-2.png" height="200"></a>
-    </p>
-    <li>
-     <strong><a href="https://developer.cisco.com/codeexchange/github/repo/xanderstevenson/swiss-army-conf/" target="_blank">Swiss Army Conf</a></strong> - Written in Python, this tool offers those monitoring a network device with 3 avenues for viewing device configuration: NETCONF, RESTCONF and SSH. The results are automatically logged in XML, JSON and text formats, respectively.  
-    </li>
-    <p align="center">
-    <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/Swiss-Army-Conf.png" target="_blank"><img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/Swiss-Army-Conf.png" height="250"></a>
-    <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/Swiss-Army-Conf-CLI.png" target="_blank"><img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/Swiss-Army-Conf-CLI.png" height="250"></a>
-    </p>
-    <li>
-        <strong><a href="https://github.com/xanderstevenson/intro-ansible-automation" target="_blank">intro-ansible-automation</a></strong> - Automate the creation of ACLs, routing reports, local files, and more using variables and conditionals in Ansible playbooks. Presented at multiple Cisco Lives.
-    </li>
-    <li>
-        <strong><a href="https://github.com/xanderstevenson/word-of-the-day" target="_blank">word-of-the-day</a></strong> - A Webex bot, written in Python, which sends a random tech word to a Webex Space and to LinkedIn daily, using APIs. Anyone can join: <a href="https://eurl.io/#3wNrmU0-1" target="_blank">https://eurl.io/#3wNrmU0-1</a>
-    </li>
-    <li>
-        <strong><a href="https://github.com/xanderstevenson/meeting-agenda-and-recap" target="_blank">meeting-agenda-and-recap</a></strong> - Automates the posting of meeting agendas and recaps in Webex spaces. It also keeps records of the agendas and recaps sent. Written in Python.
-    </li>
-</ul>
-
-    <br>
-    
-    <h3>I write DevOps articles and blogs</h3>
-    <ul>
-        <li><a href="https://community.cisco.com/t5/devnet-general-knowledge-base/devsecops-defined/ta-p/4712801" target="_blank">DevSecOps Defined</a></li>
-        <li><a href="https://community.cisco.com/t5/networking-knowledge-base/networking-automation-and-analytics-cheat-sheet/ta-p/4393538" target="_blank">Networking Automation and Analytics Cheat Sheet</a></li>
-        <li><a href="https://community.cisco.com/t5/devnet-general-knowledge-base/xml-vs-json-vs-yaml/ta-p/4729758" target="_blank">XML vs. JSON vs. YAML (Over 25,000 views!)</a></li>
-        <li><a href="https://community.cisco.com/t5/devnet-knowledge-base/automate-shell-interaction-in-python-with-pexpect/ta-p/4820670" target="_blank">Automate Shell Interaction in Python with Pexpect</a></li>
-    </ul>
-
-<br>
-
-    
-</div>
-
-<br>
-<br>
+        <br>
+        <br>
 
 
 
-<hr>
-<div id="python"> 
-<h2 align="center">Full-Stack Python development</h2>
-<hr>    
+
+        <hr>
+        <div id="datascience">
+            <h2 align="center">Data Science</h2>
+            <hr>
 
 
-    <h3>I Create full-stack Python apps</h3>
-    
-<ul>
-    <li>
-        <strong><a href="https://youtu.be/O6y-5HdCTTo?feature=shared" target="_blank">El Hambre (The Hunger)</a></strong> - I made this ambitious charitable app from scratch using the Stripe payment API and the SendGrid email API. It collected donations and sent emails containing Amazon Gift Card codes generated asynchronously via the AWS Gift Card API.
-    </li>
-    <p align="center">
-    <img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/El_Hambre.png" height="250">
-    <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/El-Hambre_Wire-Frame.png"  target="_blank"><img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/El-Hambre_Wire-Frame.png" height="250"></a><br>
-    </p>
-    <p align="center">
-    <iframe width="375" height="212" src="https://www.youtube.com/embed/O6y-5HdCTTo?si=0hGWv81SwkBpEEHh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </p>    
-    <li>
-        <strong><a href="https://github.com/xanderstevenson/sentheard" target="_blank">Sent Heard</a></strong> - This innovative project utilized Python, Django, PostgreSQL, Amazon S3, and Stripe to record, store, deliver, and display customer data securely. I was hosted on PythonAnywhere.com
-    </li>
-    <p align="center">
-    <img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/Sent-Heard.png" height="300">
-    </p>
-</ul>
-    
-    <br>
+            <h3>I Plan, Prepare, Transform, Organize, Interpret, Analyze and Gain Insights from Data</h3>
+
+            <ul>
+                <li>
+                    I'm experienced in the handling of many types of data, including JSON, XML, RESTCONF, NETCONF, SOAP,
+                    CSV, YAML, YANG, gRPC, and more...
+                </li>
+                <li>
+                    I've worked with an assortment of Data Science tools and libraries, including Pandas, NumPy, Dask,
+                    Scikit-learn, TensorFlow, PyTorch, XGBoost, Matplotlib, Seaborn, Plotly, Bokeh, Jupyter Notebooks,
+                    and more...
+                </li>
+                <li>
+                    I've received official training and certification in Data Science:
+                </li>
+                <p align="center">
+                    <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/certifications/devops/IntroductionToDataEngineering.png"
+                        target="_blank"><img
+                            src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/certifications/devops/IntroductionToDataEngineering.png"
+                            width="275"></a>
+                    <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/certifications/devops/Software%20Eng.%20for%20Data%20Scientists.png"
+                        target="_blank"><img
+                            src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/certifications/devops/Software%20Eng.%20for%20Data%20Scientists.png"
+                            width="275"></a>
+                    <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/certifications/devops/StreamLinedDataIngestionWithPandas.png"
+                        target="_blank"><img
+                            src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/certifications/devops/StreamLinedDataIngestionWithPandas.png"
+                            width="275"></a>
+                </p>
+
+            </ul>
+
+            <br>
+            <br>
 
 
 
-    
+            <hr>
+            <div id="developeradvocacy">
+                <h2 align="center">Developer Advocacy</h2>
+                <hr>
+
+
+                <h3>I Write Articles and Blogs</h3>
+
+                <ul>
+                    <li><a href="https://blogs.cisco.com/author/alexanderstevenson?dtid=osscdc000283"
+                            target="_blank">Cisco Blogs I've Authored</a></li>
+                    <li><a href="https://community.cisco.com/t5/user/viewprofilepage/user-id/976325" target="_blank">My
+                            Profile and Articles on the Cisco Community</a></li>
+                    <li>><a href="https://developer.cisco.com/codeexchange/search/?q=xanderstevenson"
+                            target="_blank">View my Code on Cisco Code Exchange</li>
+                    </a>
+                </ul>
+
+                <br>
+
+
+                <h3>I Engage with the Community</h3>
+                <p>While at Cisco DevNet, I was consistently recognized as being the Most Active and having the Greatest
+                    Impact in the Community.</p>
+                <p align="center">
+                    <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/community_engagement2.png"
+                        target="_blank"><img
+                            src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/community_engagement2.png"
+                            width="410" alt="Cisco Badges"></a>
+                </p>
+                <br>
+
+                <h3>I Speak at Conferences</h3>
+
+                <p>I've presented many sessions at Cisco Lives in Las Vegas, Melbourne, and Amsterdam, as well as at
+                    Cisco Impact / GSX and the Western Academy Support and Training Center.
+                    Sessions I've designed, prepared, and presented include:
+                </p>
+
+                <ul>
+                    <li>Automating Cisco Datacenter Technologies</li>
+                    <li>Automating Network Tasks with Cisco NX-OS Device-Level APIs</li>
+                    <li>DevOps Dashboards featuring DIY DevOps Dashboard</li>
+                    <li>REST API Fundamentals</li>
+                    <li>Introduction to Python</li>
+                    <li>Intro to Ansible for Automation</li>
+                    <li>Intro to Git</li>
+                    <li>Intro to Terraform</li>
+                </ul>
+                <p align="center">
+                    <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/Cisco-Badges.jpg"
+                        target="_blank"><img
+                            src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/Cisco-Badges.jpg"
+                            width="410" alt="Cisco Badges"></a>
+                </p>
+
+                <br>
+
+
+
+                <br>
+                <br>
+
+
+
+                <hr>
+                <div id="devops">
+                    <h2 align="center">DevOps</h2>
+                    <hr>
+
+
+                    <h3>I produced the DevOps Shop video series</h3>
+
+                    <p>The <a href="https://www.youtube.com/playlist?list=PL2k86RlAekM9ulG4xak-jmCvf1-Ot-biu"
+                            target="_blank">DevOps Shop</a> is a series of 18 videos on YouTube with over 10,000 views.
+                    </p>
+
+                    <p align="center">
+                        <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/DevOps-Shop_Collage.png"
+                            target="_blank"><img
+                                src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/DevOps-Shop_Collage.png"
+                                width="410"></a><br>
+                        <iframe width="410" height="231"
+                            src="https://www.youtube.com/embed/N2FCQeLUgUo?si=CY0d2z675jYFJQj0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </p>
+
+                    <br>
+
+                    <h3>My DevOps projects and repos</h3>
+                    <ul>
+                        <li>
+                            <strong><a href="https://github.com/xanderstevenson/diy-devops-dashboard"
+                                    target="_blank">diy-devops-dashboard</a></strong> - I made this project as a way for
+                            those new to DevOps to get started with the basic technologies involved (GitHub, Docker,
+                            GitLab, Jenkins, Terraform, Elasticsearch). It provides the user with an all-in-one place to
+                            see their progress and to better understand how these different tools interact in the
+                            DevOps.
+                            <p align="center">
+                                <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/DIY-DevOps-Dashboard-diagram2.drawio.png"
+                                    target="_blank"><img
+                                        src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/DIY-DevOps-Dashboard-diagram2.drawio.png"
+                                        height="200"></a>
+                                <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/DIY-DevOps-Dashboard.png"
+                                    target="_blank"><img
+                                        src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/DIY-DevOps-Dashboard.png"
+                                        height="200"></a>
+                            </p>
+                        </li>
+                        <li>
+                            <strong><a href="https://github.com/xanderstevenson/simple-netdevops-ci"
+                                    target="_blank">simple-netdevops-ci></a></strong> - This is a simple and free CI
+                            pipeline that receives a webhook from GitHub whenever anything changes in the GitHub repo.
+                            The webhook triggers a build action in Jenkins that runs a shell script, clones the GitHub
+                            repo, and creates a virtual environment to run pytest. Currently, the repo I am cloning from
+                            is based on Ansible, so my tests are for Ansible playbooks and inventory files, but those
+                            can be adapted to test whatever you want. If a pytest fails, a message with details is sent
+                            to a Webex space, and the build fails as well.
+                        </li>
+                        <p align="center">
+                            <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/simple-netdevops-ci-1.png"
+                                target="_blank"><img
+                                    src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/simple-netdevops-ci-1.png"
+                                    height="200"></a>
+                            <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/simple-netdevops-ci-2.png"
+                                target="_blank"><img
+                                    src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/simple-netdevops-ci-2.png"
+                                    height="200"></a>
+                        </p>
+                        <li>
+                            <strong><a
+                                    href="https://developer.cisco.com/codeexchange/github/repo/xanderstevenson/swiss-army-conf/"
+                                    target="_blank">Swiss Army Conf</a></strong> - Written in Python, this tool offers
+                            those monitoring a network device with 3 avenues for viewing device configuration: NETCONF,
+                            RESTCONF and SSH. The results are automatically logged in XML, JSON and text formats,
+                            respectively.
+                        </li>
+                        <p align="center">
+                            <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/Swiss-Army-Conf.png"
+                                target="_blank"><img
+                                    src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/Swiss-Army-Conf.png"
+                                    height="250"></a>
+                            <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/Swiss-Army-Conf-CLI.png"
+                                target="_blank"><img
+                                    src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/Swiss-Army-Conf-CLI.png"
+                                    height="250"></a>
+                        </p>
+                        <li>
+                            <strong><a href="https://github.com/xanderstevenson/intro-ansible-automation"
+                                    target="_blank">intro-ansible-automation</a></strong> - Automate the creation of
+                            ACLs, routing reports, local files, and more using variables and conditionals in Ansible
+                            playbooks. Presented at multiple Cisco Lives.
+                        </li>
+                        <li>
+                            <strong><a href="https://github.com/xanderstevenson/word-of-the-day"
+                                    target="_blank">word-of-the-day</a></strong> - A Webex bot, written in Python, which
+                            sends a random tech word to a Webex Space and to LinkedIn daily, using APIs. Anyone can
+                            join: <a href="https://eurl.io/#3wNrmU0-1" target="_blank">https://eurl.io/#3wNrmU0-1</a>
+                        </li>
+                        <li>
+                            <strong><a href="https://github.com/xanderstevenson/meeting-agenda-and-recap"
+                                    target="_blank">meeting-agenda-and-recap</a></strong> - Automates the posting of
+                            meeting agendas and recaps in Webex spaces. It also keeps records of the agendas and recaps
+                            sent. Written in Python.
+                        </li>
+                    </ul>
+
+                    <br>
+
+                    <h3>I write DevOps articles and blogs</h3>
+                    <ul>
+                        <li><a href="https://community.cisco.com/t5/devnet-general-knowledge-base/devsecops-defined/ta-p/4712801"
+                                target="_blank">DevSecOps Defined</a></li>
+                        <li><a href="https://community.cisco.com/t5/networking-knowledge-base/networking-automation-and-analytics-cheat-sheet/ta-p/4393538"
+                                target="_blank">Networking Automation and Analytics Cheat Sheet</a></li>
+                        <li><a href="https://community.cisco.com/t5/devnet-general-knowledge-base/xml-vs-json-vs-yaml/ta-p/4729758"
+                                target="_blank">XML vs. JSON vs. YAML (Over 25,000 views!)</a></li>
+                        <li><a href="https://community.cisco.com/t5/devnet-knowledge-base/automate-shell-interaction-in-python-with-pexpect/ta-p/4820670"
+                                target="_blank">Automate Shell Interaction in Python with Pexpect</a></li>
+                    </ul>
+
+                    <br>
+
+
+                </div>
+
+                <br>
+                <br>
+
+
+
+                <hr>
+                <div id="python">
+                    <h2 align="center">Full-Stack Python development</h2>
+                    <hr>
+
+
+                    <h3>I Create full-stack Python apps</h3>
+
+                    <ul>
+                        <li>
+                            <strong><a href="https://youtu.be/O6y-5HdCTTo?feature=shared" target="_blank">El Hambre (The
+                                    Hunger)</a></strong> - I made this ambitious charitable app from scratch using the
+                            Stripe payment API and the SendGrid email API. It collected donations and sent emails
+                            containing Amazon Gift Card codes generated asynchronously via the AWS Gift Card API.
+                        </li>
+                        <p align="center">
+                            <img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/El_Hambre.png"
+                                height="250">
+                            <a href="https://github.com/xanderstevenson/xanderstevenson.github.io/blob/main/files/images/El-Hambre_Wire-Frame.png"
+                                target="_blank"><img
+                                    src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/El-Hambre_Wire-Frame.png"
+                                    height="250"></a><br>
+                        </p>
+                        <p align="center">
+                            <iframe width="375" height="212"
+                                src="https://www.youtube.com/embed/O6y-5HdCTTo?si=0hGWv81SwkBpEEHh"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </p>
+                        <li>
+                            <strong><a href="https://github.com/xanderstevenson/sentheard" target="_blank">Sent
+                                    Heard</a></strong> - This innovative project utilized Python, Django, PostgreSQL,
+                            Amazon S3, and Stripe to record, store, deliver, and display customer data securely. I was
+                            hosted on PythonAnywhere.com
+                        </li>
+                        <p align="center">
+                            <img src="https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/Sent-Heard.png"
+                                height="300">
+                        </p>
+                    </ul>
+
+                    <br>
+
+
 </body>
