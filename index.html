@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of Alexander Stevenson</title>
     <style>
         body {
             background: #DDE9F0 url('https://github.com/xanderstevenson/xanderstevenson.github.io/raw/main/files/images/blue-moon-background.png') no-repeat center center fixed;
@@ -38,14 +39,13 @@
             z-index: 1000;
             color: #444444;
         }
-
+        
         /* Updated Menu Styling */
         .menu {
             display: none; /* Hidden initially */
             flex-direction: column; /* Stack items vertically */
             justify-content: center;
-            background: linear-gradient(to right, #A7C6ED, #B3D6E6);
-            /* background: rgba(255, 255, 255, 0.8);  Semi-transparent white background */
+            background: linear-gradient(to right, #A7C6ED, #B3D6E6); /* Gradient background */
             border-radius: 10px; /* Slightly rounded corners */
             padding: 10px;
             width: 300px; /* Fixed width for a more rectangular shape */
@@ -57,15 +57,15 @@
             z-index: 999;
             text-align: left;
         }
-
+        
         /* Adding the body blur effect */
         body.menu-blur {
             filter: blur(5px); /* Adjust the blur amount as needed */
             transition: filter 0.3s ease; /* Smooth transition for the blur effect */
         }
-
         
-        .menu a, p {
+        .menu a,
+        p {
             display: block; /* Make each item take the full width */
             padding: 10px;
             text-decoration: none;
@@ -74,7 +74,7 @@
             border-radius: 5px;
             transition: background 0.3s;
             font-weight: 600;
-            text-align: center
+            text-align: center;
         }
         
         .menu a:hover {
@@ -83,8 +83,9 @@
         
         /* Toggle menu on click */
         .menu-open {
-            display: flex !important;
+            display: flex !important; /* Use flexbox to show menu */
         }
+
 
 
 
@@ -225,6 +226,7 @@
 <hr>
 
 <script>
+    
     function toggleMenu() {
         var menu = document.getElementById("menu");
         var body = document.body; // Get the body element
@@ -244,6 +246,7 @@
         menu.classList.remove("menu-open");  // Hide the menu after a link is clicked
         body.classList.remove("menu-blur");  // Remove the blur effect
     }
+
 
 
     function toggleContactInfo() {
