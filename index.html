@@ -88,18 +88,24 @@
         .menu-open {
             display: flex !important; /* Use flexbox to show menu */
         }
-
-
-
-
-
+        
         /* Media query for smaller screens */
-        @media (max-width: 375px) {
+        @media (max-width: 768px) {
             .menu {
-                flex-direction: column;
-                width: 90%;
+                width: 90%; /* Full width on smaller screens */
+                max-width: 300px; /* Cap the width to avoid overflow */
             }
         }
+        
+        /* Further adjustments for very small screens */
+        @media (max-width: 375px) {
+            .menu {
+                padding: 10px; /* Less padding on very small screens */
+                font-size: 14px; /* Smaller font size for readability */
+            }
+        }
+
+
 
         .container {
             display: flex;
@@ -250,6 +256,7 @@
         menu.classList.remove("menu-open");  // Hide the menu after a link is clicked
         body.classList.remove("menu-blur");  // Remove the blur effect
     }
+    
 
 
 
