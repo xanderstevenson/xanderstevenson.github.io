@@ -112,13 +112,10 @@
             }
         }
 
-.container {
-    display: flex;
-    justify-content: center;
-    width: 800px;
-    max-width: 100%; /* Prevents overflow on smaller screens */
-    margin: 0 auto; /* Centers the container itself */
-}
+        .container {
+            display: flex;
+            justify-content: center;
+        }
 
 
         .centered-box {
@@ -204,6 +201,14 @@
             color: #3B4F80;
         }
 
+        .max-width {
+            display: flex;
+             justify-content: center;
+             width: 800px;
+            max-width: 100%; /* Prevents overflow on smaller screens */
+            margin: 0 auto; /* Centers the container itself */
+        }
+
         
     </style>
 </head>
@@ -215,7 +220,7 @@
     <a href="#top" class="back-to-top" id="backToTop">
         ↑
     </a>
-    <div style="margin: 0px auto; text-align: center; align-content: center; max-width: 600px"  id="top">
+    <div style="container"  id="top">
         <div class="centered-box">
             <h3 align="center" class="dark-blue">Portfolio of:</h3>
             <h1 align="center">Alexander Stevenson</h1>
