@@ -230,35 +230,37 @@
         }
         
 
-                 .nav-menu {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: linear-gradient(to right, #A7C6ED, #B3D6E6);
-            padding: 10px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-            width: fit-content;
-            margin: 20px auto;
-        }
+.nav-menu {
+    display: inline-flex;  
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #A7C6ED, #B3D6E6);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    margin: 20px auto;
+    gap: 10px;
+}
 
-        .nav-menu a {
-            background-color: white;
-            color: #007bff;
-            padding: 10px 15px;
-            margin: 5px;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-            transition: background 0.3s, color 0.3s, transform 0.2s;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-        }
+.nav-menu a {
+    background: rgba(255, 255, 255, 0.85); /* Slightly transparent white */
+    color: #3B4F80; /* Dark blue text */
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
 
-        .nav-menu a:hover {
-            background-color: #007bff;
-            color: white;
-            transform: scale(1.05);
-        }   
+.nav-menu a:hover {
+    background: #E1EAF5; /* Soft blue-gray on hover */
+    color: #2D3A5C; /* Slightly darker text */
+    transform: scale(1.05);
+}
+
 
             
         
@@ -382,8 +384,6 @@
     </div>
 
 
-    
-    <br>
     
     <div class="width-limit">
     <br>
