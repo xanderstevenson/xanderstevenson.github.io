@@ -230,24 +230,27 @@
         }
         
 
-.nav-menu {
+
+
+        .nav-menu {
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right, #A7C6ED, #B3D6E6);
-    padding: 10px;
+    padding: 8px;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     width: fit-content;
-    margin: 20px auto;
-    gap: 10px;
-    text-align: center;
+    margin: 15px auto;
+    gap: 8px;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
 }
 
 .nav-menu a {
-    background: #C5DAEC; /* Lightened soft blue */
-    color: #3B4F80; /* Dark blue text */
-    padding: 12px 18px;
+    background: #C5DAEC;
+    color: #3B4F80;
+    padding: 8px 12px; /* Reduced padding */
+    font-size: 14px; /* Smaller text */
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
@@ -257,13 +260,27 @@
 }
 
 .nav-menu a:hover {
-    background: #B0C9E0; /* Slightly darker blue */
-    color: #2D3A5C; /* Darker navy text */
+    background: #B0C9E0;
+    color: #2D3A5C;
     transform: scale(1.05);
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 480px) {
+    .nav-menu {
+        gap: 5px;
+        padding: 5px;
+    }
+
+    .nav-menu a {
+        font-size: 12px; /* Even smaller text for tiny screens */
+        padding: 6px 10px; /* Slightly smaller buttons */
+    }
 }
 
 
 
+        
             
         
     </style>
