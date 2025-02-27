@@ -231,7 +231,7 @@
         
 
 .nav-menu {
-    display: inline-flex;  
+    display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right, #A7C6ED, #B3D6E6);
@@ -241,12 +241,13 @@
     width: fit-content;
     margin: 20px auto;
     gap: 10px;
+    text-align: center;
 }
 
 .nav-menu a {
-    background: rgba(255, 255, 255, 0.85); /* Slightly transparent white */
+    background: #B3CDE6; /* Darker soft blue */
     color: #3B4F80; /* Dark blue text */
-    padding: 10px 15px;
+    padding: 12px 18px;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
@@ -256,8 +257,8 @@
 }
 
 .nav-menu a:hover {
-    background: #E1EAF5; /* Soft blue-gray on hover */
-    color: #2D3A5C; /* Slightly darker text */
+    background: #A0BBD6; /* Slightly darker blue */
+    color: #2D3A5C; /* Darker navy text */
     transform: scale(1.05);
 }
 
