@@ -86,6 +86,22 @@
             text-align: left;
         }
 
+
+        .nav-menu {
+            display: block;
+            /* Make each item take the full width */
+            padding: 10px;
+            text-decoration: none;
+            color: #444444;
+            margin: 5px 0;
+            /* Add vertical space between items */
+            border-radius: 5px;
+            transition: background 0.3s;
+            font-weight: 600;
+            text-align: center
+           }
+
+        
         .menu a,
         p {
             display: block;
@@ -278,6 +294,7 @@
     <nav id="menu" class="menu" align="center">
         <h3 style="text-align: center;">Portfolio Sections</h3>
         <hr style="margin: 5px 0;border: 0;height: 1px; width: 100%; background-color: #007bff;">
+        <a href="#expertise" onclick="hideMenu()">Areas of Expertise</a>
         <a href="#ai" onclick="hideMenu()">AI and ML</a>
         <a href="#datacenter" onclick="hideMenu()">Data Center</a>
         <a href="#datascience" onclick="hideMenu()">Data Science</a>
@@ -336,7 +353,7 @@
     </script>
 
    
-    <div class="menu" align="center">
+    <div class="nav-menu" align="center">
         <h3 style="text-align: center;">Portfolio Sections</h3>
         <hr style="margin: 5px 0;border: 0;height: 1px; width: 100%; background-color: #007bff;">
         <a href="#ai">AI and ML</a>
@@ -352,6 +369,9 @@
     <div class="width-limit">
     <br>
     <hr>
+
+<div id="expertise">
+        
     <h2 align="center" style="color: #444444"><strong>Areas of Expertise:</strong></h2>
     <hr>
     <br>
@@ -378,6 +398,8 @@
             Web Development ; )</li>
     </ul>
 
+</div>
+        
     <br>
     <br>
     <br>
